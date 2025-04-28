@@ -1,10 +1,26 @@
 version: "3.1"
 
 nlu:
+- intent: Hola
+  examples: |
+    - ewcha
+    - ewchacue
+
+- intent: Adiós
+  examples: |
+    - u'tj
+    - me'j
+    - me'jwe
+
 - intent: Madre tierra
   examples: |
     - we’sxa kwe’sx
 
+- intent: Pueblo de la resistencia
+  examples: |
+    - shamb nasa
+    - chjamb nasa
+    
 # - intent: goodbye
 #   examples: |
 #     - cu

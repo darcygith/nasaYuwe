@@ -1,33 +1,23 @@
 version: "3.1"
 
 intents:
-  - greet
-  - goodbye
-  - affirm
-  - deny
-  - mood_great
-  - mood_unhappy
-  - bot_challenge
+  - Hola
+  - Adiós
+  - Madre Tierra
+  - Pueblo de la resistencia
 
 responses:
-  utter_greet:
-  - text: "Hey! How are you?"
+  saludo_:
+  - text: "Hola, me presento soy de una comunidad indigena"
 
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
+  situacion_:
+  - text: "El territorio es fundamental"
 
-  utter_did_that_help:
-  - text: "Did that help you?"
-
-  utter_happy:
-  - text: "Great, carry on!"
-
-  utter_goodbye:
-  - text: "Bye"
-
-  utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
+  situacion_2:
+  -text: "para la existencia de los pueblos indígenas en él se construyen valores, se teje historia, se recrea la sabiduría y se practican rituales espirituales de forma colectiva."
+  
+  despedida_:
+  - text: "Gracias, Adiós"
 
 session_config:
   session_expiration_time: 60
