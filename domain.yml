@@ -8,17 +8,24 @@ intents:
 
 responses:
   saludo_:
-  - text: "Hola, me presento soy de una comunidad indigena"
+    - text: "Hola, me presento soy de una comunidad indígena"
 
   situacion_:
-  - text: "El territorio es fundamental"
+    - text: "El territorio es fundamental"
 
   situacion_2:
-  -text: "para la existencia de los pueblos indígenas en él se construyen valores, se teje historia, se recrea la sabiduría y se practican rituales espirituales de forma colectiva."
-  
+    - text: "Para la existencia de los pueblos indígenas en él se construyen valores, se teje historia, se recrea la sabiduría y se practican rituales espirituales de forma colectiva."
+
   despedida_:
-  - text: "Gracias, Adiós"
+    - text: "Gracias, Adiós"
+
+actions:
+  - saludo_
+  - situacion_
+  - situacion_2
+  - despedida_
 
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
+

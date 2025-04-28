@@ -1,26 +1,25 @@
 version: "3.1"
 
 stories:
+  - story: saludo
+    steps:
+      - intent: Hola
+      - action: saludo_
 
--story : saludo
-  steps:
-    - intent: Hola
-    - action: saludo_
+  - story: Adiós
+    steps:
+      - intent: Adiós
+      - action: despedida_
 
--story : Adiós
-  steps:
-    - intent: Adiós
-    - action: despedida_
+  - story: Madre Tierra
+    steps:
+      - intent: Madre tierra
+      - action: situacion_
 
--story : Madre Tierra
-  steps:
-    - intent: Madre Tierra
-    - action: situacion_
-
--story : pueblo de la resistencia
-  steps:
-    - intent: Pueblo de la resistencia
-    - action: situacion_2
+  - story: pueblo de la resistencia
+    steps:
+      - intent: Pueblo de la resistencia
+      - action: situacion_2
 
 
 
