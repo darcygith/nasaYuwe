@@ -2,8 +2,10 @@ version: "3.1"
 nlu:
 - intent: madre_tierra
   examples: |
-    - Nasa [we’sxa kwe’sx] (Madre tierra) uma kiweyak wät wät fxi’zen ʉsthaw, kwe’sx ksxaʉ’txi yahtxna eukwe’sxha fxi’zeya.
+    - We’sxa kwe’sx
     - we’sxa kwe’sx
-    - kwe’sx ksxaʉ’txi yahtxna
-    - habla sobre la madre tierra
-    - dime algo sobre we’sxa kwe’sx
+    - ¿Qué significa we’sxa kwe’sx?
+    - we’sxa kwe’sx significa madre tierra
+    - Explica we’sxa kwe’sx
+    - Dime algo sobre we’sxa kwe’sx
+    - Qué es we’sxa kwe’sx

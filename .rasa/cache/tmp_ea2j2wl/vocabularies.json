@@ -1,0 +1,49 @@
+{
+  "text": {
+    "nasa": 10,
+    "we": 18,
+    "sxa": 13,
+    "kwe": 7,
+    "sx": 12,
+    "madre": 9,
+    "tierra": 15,
+    "uma": 17,
+    "kiweyak": 5,
+    "wät": 19,
+    "fxi": 3,
+    "zen": 21,
+    "ʉsthaw": 23,
+    "ksxaʉ": 6,
+    "txi": 16,
+    "yahtxna": 20,
+    "eukwe": 2,
+    "sxha": 14,
+    "zeya": 22,
+    "habla": 4,
+    "sobre": 11,
+    "la": 8,
+    "dime": 1,
+    "algo": 0
+  },
+  "intent": {
+    "madre_tierra": 0
+  },
+  "response": null,
+  "action_name": {
+    "action_listen": 6,
+    "action_restart": 7,
+    "action_session_start": 9,
+    "action_default_fallback": 4,
+    "action_deactivate_loop": 1,
+    "action_revert_fallback_events": 8,
+    "action_default_ask_affirmation": 2,
+    "action_default_ask_rephrase": 3,
+    "action_two_stage_fallback": 10,
+    "action_unlikely_intent": 11,
+    "action_back": 0,
+    "action_extract_slots": 5,
+    "utter_madre_tierra": 12
+  },
+  "action_text": null,
+  "intent_response_key": null
+}
