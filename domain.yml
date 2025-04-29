@@ -1,29 +1,9 @@
 version: "3.1"
-
 intents:
-  - Hola
-  - Adiós
-  - Madre Tierra
-  - Pueblo de la resistencia
-
+  - madre_tierra
 responses:
-  saludo_:
-    - text: "Hola, me presento soy de una comunidad indígena"
-
-  situacion_:
-    - text: "El territorio es fundamental"
-
-  situacion_2:
-    - text: "Para la existencia de los pueblos indígenas en él se construyen valores, se teje historia, se recrea la sabiduría y se practican rituales espirituales de forma colectiva."
-
-  despedida_:
-    - text: "Gracias, Adiós"
-
-actions:
-  - saludo_
-  - situacion_
-  - situacion_2
-  - despedida_
+  utter_madre_tierra:
+    - text: "We’sxa kwe’sx significa Madre Tierra. Es un concepto sagrado en la cosmovisión Nasa."
 
 session_config:
   session_expiration_time: 60

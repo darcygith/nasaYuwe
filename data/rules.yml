@@ -1,35 +1,6 @@
 version: "3.1"
-
 rules:
-  - rule: Saludo
-    steps:
-      - intent: Hola
-      - action: saludo_
-
-  - rule: Despedida
-    steps:
-      - intent: Adiós
-      - action: despedida_
-
-  - rule: Madre Tierra
-    steps:
-      - intent: Madre tierra
-      - action: situacion_
-
-  - rule: Pueblo de la resistencia
-    steps:
-      - intent: Pueblo de la resistencia
-      - action: situacion_2
-
-
-# rules:
-
-# - rule: Say goodbye anytime the user says goodbye
-#   steps:
-#   - intent: goodbye
-#   - action: utter_goodbye
-
-# - rule: Say 'I am a bot' anytime the user challenges
-#   steps:
-#   - intent: bot_challenge
-#   - action: utter_iamabot
+- rule: Responder sobre madre tierra
+  steps:
+    - intent: madre_tierra
+    - action: utter_madre_tierra
