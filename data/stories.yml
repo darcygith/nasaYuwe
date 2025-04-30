@@ -1,6 +1,6 @@
 version: "3.1"
 stories:
-- story: Consulta sobre madre tierra
+- story: 
   steps:
-    - intent: madre_tierra
-    - action: utter_madre_tierra
+    - intent: 
+    - action: 
