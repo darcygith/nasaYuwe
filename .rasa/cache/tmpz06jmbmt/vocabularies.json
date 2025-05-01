@@ -1,0 +1,49 @@
+{
+  "text": {
+    "hola": 12,
+    "buenos": 3,
+    "días": 7,
+    "qué": 18,
+    "tal": 21,
+    "hey": 11,
+    "saludos": 20,
+    "cuál": 4,
+    "es": 9,
+    "el": 8,
+    "horario": 14,
+    "a": 0,
+    "hora": 13,
+    "abren": 2,
+    "dime": 6,
+    "los": 16,
+    "horarios": 15,
+    "necesito": 17,
+    "saber": 19,
+    "cuándo": 5,
+    "están": 10,
+    "abiertos": 1
+  },
+  "intent": {
+    "saludo": 1,
+    "consultar_horario": 0
+  },
+  "response": null,
+  "action_name": {
+    "action_listen": 6,
+    "action_restart": 7,
+    "action_session_start": 9,
+    "action_default_fallback": 4,
+    "action_deactivate_loop": 1,
+    "action_revert_fallback_events": 8,
+    "action_default_ask_affirmation": 2,
+    "action_default_ask_rephrase": 3,
+    "action_two_stage_fallback": 10,
+    "action_unlikely_intent": 11,
+    "action_back": 0,
+    "action_extract_slots": 5,
+    "utter_horario": 12,
+    "utter_saludo": 13
+  },
+  "action_text": null,
+  "intent_response_key": null
+}

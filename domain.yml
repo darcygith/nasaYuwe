@@ -1,11 +1,42 @@
 version: "3.1"
+
 intents:
-  - 
+  - saludo
+  - consultar_horario
+  - consultar_ciudad  # Nueva intención para ciudades
+  - despedida
+
+entities:
+  - ciudad  # Entidad para reconocer las ciudades
+
+slots:
+  ciudad:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: ciudad
+
 responses:
-  utter_madre_tierra:
-    - text: 
+  utter_saludo:
+    - text: "¡Hola! ¿En qué puedo ayudarte?"
+
+  utter_horario:
+    - text: "Nuestro horario es de lunes a viernes, de 9 a.m. a 6 p.m."
+
+  utter_info_ciudad:
+    - text: "¡Claro! Hay mucho que hacer en {ciudad}. ¿Te gustaría saber más sobre algún lugar específico?"
+  
+  utter_despedida:
+    - text: "Hasta luego, espero que haberte podido ayudar!"
+
+actions:
+  - utter_saludo
+  - utter_horario
+  - utter_info_ciudad
+  - utter_despedida
 
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
+
 

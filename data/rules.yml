@@ -1,6 +1,23 @@
 version: "3.1"
+
 rules:
-- rule: 
+- rule: responder al saludo
   steps:
-    - intent: 
-    - action: 
+  - intent: saludo
+  - action: utter_saludo
+
+- rule: responder al horario
+  steps:
+  - intent: consultar_horario
+  - action: utter_horario
+
+- rule: responder ciudad
+  steps:
+  - intent : consultar_ciudad
+  - action: utter_info_ciudad
+
+- rule: responder despedida
+  steps: 
+  - intent: despedida
+  - action: utter_despedida
+

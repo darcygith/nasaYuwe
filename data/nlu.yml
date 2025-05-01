@@ -1,5 +1,49 @@
 version: "3.1"
+
 nlu:
-- intent: 
-  examples: |
-    
+  - intent: saludo
+    examples: |
+      - hola
+      - buenos días
+      - qué tal
+      - hey
+      - saludos
+      
+  - intent: despedida
+    examples: |
+      - Adiós
+      - Hasta luego que te vaya bien
+      - Gracias
+  
+  - intent: consultar_horario
+    examples: |
+      - ¿Cuál es el horario?
+      - ¿A qué hora abren?
+      - dime los horarios
+      - necesito saber el horario
+      - ¿cuándo están abiertos?
+      - ¿A qué hora cierran?
+      - ¿En qué horario están abiertos?
+  
+  - intent: consultar_ciudad
+    examples: |
+      - ¿Cuáles son los lugares turísticos en Ciudad de [México](ciudad)?
+      - ¿Qué hay para hacer en [Bogotá](ciudad)?
+      - ¿Qué puedo visitar en [Medellín](ciudad)?
+      - Quiero saber más sobre [Buenos Aires](ciudad)
+      - ¿Qué recomiendas en [Lima](ciudad)?
+      - Dime algo sobre [Bogotá](ciudad)
+      - ¿Qué hay en Ciudad de [México](ciudad)?
+      - ¿Qué hacer en [Medellín](ciudad)?
+      - ¿Qué lugares visitar en [Lima](ciudad)?
+      - ¿Dónde puedo ir en Buenos [Aires](ciudad)?
+
+
+lookup:
+  - name: ciudad
+    elements: |
+      Ciudad de México
+      Bogotá
+      Medellín
+      Buenos Aires
+      Lima

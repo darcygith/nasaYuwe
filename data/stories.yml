@@ -1,6 +1,14 @@
 version: "3.1"
+
 stories:
-- story: 
+- story: saludo y luego pregunta por horario
   steps:
-    - intent: 
-    - action: 
+  - intent: saludo
+  - action: utter_saludo
+  - intent: consultar_horario
+  - action: utter_horario
+
+- story: despedida
+  steps:
+  - intent: despedida
+  - action: utter_despedida
