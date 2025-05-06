@@ -1,0 +1,6 @@
+[
+  {
+    "name": "madreTierra",
+    "pattern": "(\\bmadre\\ tierra\\b)"
+  }
+]

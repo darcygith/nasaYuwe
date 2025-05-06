@@ -1,0 +1,10 @@
+[
+  {
+    "name": "Territorio_Madre_Tierra",
+    "pattern": "(\\bkwe’sx\\ uma\\ kiwe\\ îtxi\\b|\\bkiwe\\ îtxi\\b|\\bkwe’sx\\b|\\buma\\b)"
+  },
+  {
+    "name": "Autonomia_Territorial",
+    "pattern": "(\\bNasa\\ we’sxa\\b|\\bNasa\\b|\\bwe’sxa\\b)"
+  }
+]

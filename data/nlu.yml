@@ -1,49 +1,34 @@
 version: "3.1"
 
 nlu:
-  - intent: saludo
-    examples: |
-      - hola
-      - buenos días
-      - qué tal
-      - hey
-      - saludos
-      
-  - intent: despedida
-    examples: |
-      - Adiós
-      - Hasta luego que te vaya bien
-      - Gracias
-  
-  - intent: consultar_horario
-    examples: |
-      - ¿Cuál es el horario?
-      - ¿A qué hora abren?
-      - dime los horarios
-      - necesito saber el horario
-      - ¿cuándo están abiertos?
-      - ¿A qué hora cierran?
-      - ¿En qué horario están abiertos?
-  
-  - intent: consultar_ciudad
-    examples: |
-      - ¿Cuáles son los lugares turísticos en Ciudad de [México](ciudad)?
-      - ¿Qué hay para hacer en [Bogotá](ciudad)?
-      - ¿Qué puedo visitar en [Medellín](ciudad)?
-      - Quiero saber más sobre [Buenos Aires](ciudad)
-      - ¿Qué recomiendas en [Lima](ciudad)?
-      - Dime algo sobre [Bogotá](ciudad)
-      - ¿Qué hay en Ciudad de [México](ciudad)?
-      - ¿Qué hacer en [Medellín](ciudad)?
-      - ¿Qué lugares visitar en [Lima](ciudad)?
-      - ¿Dónde puedo ir en Buenos [Aires](ciudad)?
+- intent: traducir_nasa
+  examples: |
+    - [kwe’sx uma kiwe îtxi](Territorio_Madre_Tierra) wãt fxies fxi’zen ûsthaw [nasa we’sxa](Autonomia_Territorial) Thê’sa thwê’jxinitx yahtxna, kwe’sx ksxa’wtxi peçxkaname.
+    - [kwe’sx uma kiwe îtxi](Territorio_Madre_Tierra) wãt fxies fxi’zen ûsthaw
+    - [nasa we’sxa](Autonomia_Territorial) Thê’sa thwê’jxinitx yahtxna, kwe’sx ksxa’wtxi peçxkaname
+    - [kwe’sx uma kiwe îtxi](Territorio_Madre_Tierra)
+    - [kwe’sx uma kiwe îtxi](Territorio_Madre_Tierra) ûsjwaja’as peesuk txãpaka jxuhkasay pêeykaja’ka
+    - [Nasa we’sxa](Autonomia_Territorial) kwe’sxthaw ûsyahtxa mjîi’ una kiwes txakwe subyame’
+
+- intent: traducir_nasa_2
+  examples: |
+    - [Eka nasawe’sxa](Estados) paapeî’ ji’pta’ [Nasa we’sx](Participacion_Comunitaria), kwe’sx nasatxis naa u’pta çxhab walasu kaanxi txãwe’sx eçfxi’nxi ûsteyu’ tegunxa ãn kwe’sx uma kiwes subwasametewa
+    - [Nasa we’sx](Participacion_Comunitaria) kwe’sx nasatxis naa u’pta çxhab walasu kaanxi txãwe’sx eçfxi’nxi ûsteyu’ tegunxa ãn kwe’sx uma kiwes subwasametewa
+    - [Eka nasawe’sxa](Estados) paapeî’ ji’pta’ kwe’sx nasatxis naa u’pta çxhab walasu kaanxi txãwe’sx eçfxi’nxi ûsteyu’ tegunxa ãn kwe’sx uma kiwes subwasametewa
 
 
-lookup:
-  - name: ciudad
-    elements: |
-      Ciudad de México
-      Bogotá
-      Medellín
-      Buenos Aires
-      Lima
+- lookup: Territorio_Madre_Tierra
+  examples: |
+   - madre tierra
+   - pacha mama
+- lookup: Autonomia_Territorial
+  examples: |
+    - pueblos indigenas
+    - comunidad
+- lookup: Estados
+  examples: |
+   - estados
+- lookup: Participacion_Comunitaria
+  examples: |
+    - pueblos indigenas
+

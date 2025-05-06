@@ -1,14 +1,7 @@
 version: "3.1"
 
 stories:
-- story: saludo y luego pregunta por horario
-  steps:
-  - intent: saludo
-  - action: utter_saludo
-  - intent: consultar_horario
-  - action: utter_horario
-
-- story: despedida
-  steps:
-  - intent: despedida
-  - action: utter_despedida
+  - story: historia madre tierra
+    steps:
+      - intent: traducir_nasa
+      - action: utter_traduccion_nasa

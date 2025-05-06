@@ -1,42 +1,47 @@
 version: "3.1"
 
 intents:
-  - saludo
-  - consultar_horario
-  - consultar_ciudad  # Nueva intención para ciudades
-  - despedida
+  - traducir_nasa
+  - traducir_nasa_2
 
 entities:
-  - ciudad  # Entidad para reconocer las ciudades
+  - Territorio_Madre_Tierra
+  - Autonomia_Territorial
+  - Estados
+  - Participacion_Comunitaria
 
 slots:
-  ciudad:
+  Territorio_Madre_Tierra :
     type: text
     mappings:
-    - type: from_entity
-      entity: ciudad
+      - type: from_entity
+        entity: Territorio_Madre_Tierra
+  Autonomia_Territorial :
+    type: text
+    mappings:
+      - type: from_entity
+        entity: Autonomia_Territorial
+  Estados :
+    type: text
+    mappings:
+      - type: from_entity
+        entity: Estados
+  Participacion_Comunitaria:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: Participacion_Comunitaria
 
 responses:
-  utter_saludo:
-    - text: "¡Hola! ¿En qué puedo ayudarte?"
-
-  utter_horario:
-    - text: "Nuestro horario es de lunes a viernes, de 9 a.m. a 6 p.m."
-
-  utter_info_ciudad:
-    - text: "¡Claro! Hay mucho que hacer en {ciudad}. ¿Te gustaría saber más sobre algún lugar específico?"
-  
-  utter_despedida:
-    - text: "Hasta luego, espero que haberte podido ayudar!"
+  utter_traduccion_nasa:
+    - text: "El indigena se refiere a la existencia de una relación fundamental entre la madre tierra, la historia y sabiduría del pueblo indígena en el caso de la {Territorio_Madre_Tierra} y {Autonomia_Territorial}."
+  utter_traduccion_nasa_2:
+    - text: "indige se refierea a los estados y pueblo resistente, {Estados} y {Participacion_Comunitaria}"
 
 actions:
-  - utter_saludo
-  - utter_horario
-  - utter_info_ciudad
-  - utter_despedida
+  - utter_traduccion_nasa
+  - utter_traduccion_nasa_2
 
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
-
-

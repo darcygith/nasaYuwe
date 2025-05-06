@@ -1,0 +1,10 @@
+[
+  {
+    "name": "Territorio_Madre_Tierra",
+    "pattern": "(\\bmadre\\ tierra\\b|\\bpacha\\ mama\\b)"
+  },
+  {
+    "name": "Autonomia_Territorial",
+    "pattern": "(\\bpueblos\\ indigenas\\b|\\bcomunidad\\b)"
+  }
+]

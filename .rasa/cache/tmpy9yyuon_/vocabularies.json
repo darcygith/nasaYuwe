@@ -1,0 +1,43 @@
+{
+  "text": {
+    "kwe": 4,
+    "sx_uma_kiwe_îtxi": 9,
+    "wãt": 14,
+    "fxies": 1,
+    "fxi": 0,
+    "zen": 16,
+    "ûsthaw": 17,
+    "nasa_we": 5,
+    "sxa": 10,
+    "thê": 12,
+    "sa": 7,
+    "thwê": 11,
+    "jxinitx": 2,
+    "yahtxna": 15,
+    "sx": 8,
+    "ksxa": 3,
+    "wtxi": 13,
+    "peçxkaname": 6
+  },
+  "intent": {
+    "primeraf": 0
+  },
+  "response": null,
+  "action_name": {
+    "action_listen": 6,
+    "action_restart": 7,
+    "action_session_start": 9,
+    "action_default_fallback": 4,
+    "action_deactivate_loop": 1,
+    "action_revert_fallback_events": 8,
+    "action_default_ask_affirmation": 2,
+    "action_default_ask_rephrase": 3,
+    "action_two_stage_fallback": 10,
+    "action_unlikely_intent": 11,
+    "action_back": 0,
+    "action_extract_slots": 5,
+    "utter_primeraf": 12
+  },
+  "action_text": null,
+  "intent_response_key": null
+}

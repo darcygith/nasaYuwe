@@ -1,0 +1,10 @@
+[
+  {
+    "name": "kwe’sx_uma_kiwe_îtxi",
+    "pattern": "(\\bterritorio\\ madre\\ tierra\\b)"
+  },
+  {
+    "name": "anasa_we’sxa",
+    "pattern": "(\\bautonomia\\ territorial\\b)"
+  }
+]
