@@ -4,9 +4,9 @@ rules:
   - rule: responder la primeraF
     steps:
       - intent: traducir_nasa
-      - action: utter_traduccion_nasa
+      - action: action_traduccion_nasa
 
   - rule: responder la segundaF
     steps:
       - intent: traducir_nasa_2
-      - action: utter_traduccion_nasa_2
+      - action: action_traduccion_nasa_2

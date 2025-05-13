@@ -11,36 +11,34 @@ entities:
   - Participacion_Comunitaria
 
 slots:
-  Territorio_Madre_Tierra :
+  Territorio_Madre_Tierra:
     type: text
     mappings:
       - type: from_entity
         entity: Territorio_Madre_Tierra
-  Autonomia_Territorial :
+
+  Autonomia_Territorial:
     type: text
     mappings:
       - type: from_entity
         entity: Autonomia_Territorial
-  Estados :
+
+  Estados:
     type: text
     mappings:
       - type: from_entity
         entity: Estados
+
   Participacion_Comunitaria:
     type: text
     mappings:
       - type: from_entity
         entity: Participacion_Comunitaria
 
-responses:
-  utter_traduccion_nasa:
-    - text: "El indigena se refiere a la existencia de una relación fundamental entre la madre tierra, la historia y sabiduría del pueblo indígena en el caso de la {Territorio_Madre_Tierra} y {Autonomia_Territorial}."
-  utter_traduccion_nasa_2:
-    - text: "indige se refierea a los estados y pueblo resistente, {Estados} y {Participacion_Comunitaria}"
-
 actions:
-  - utter_traduccion_nasa
-  - utter_traduccion_nasa_2
+  - action_traduccion_nasa    
+  - action_traduccion_nasa_2    
+
 
 session_config:
   session_expiration_time: 60

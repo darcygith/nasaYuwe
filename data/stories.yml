@@ -4,4 +4,4 @@ stories:
   - story: historia madre tierra
     steps:
       - intent: traducir_nasa
-      - action: utter_traduccion_nasa
+      - action: action_traduccion_nasa

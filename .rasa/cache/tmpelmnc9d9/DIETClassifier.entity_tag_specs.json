@@ -1,0 +1,44 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-Autonomia_Territorial",
+      "2": "I-Autonomia_Territorial",
+      "3": "L-Autonomia_Territorial",
+      "4": "U-Autonomia_Territorial",
+      "5": "B-Estados",
+      "6": "I-Estados",
+      "7": "L-Estados",
+      "8": "U-Estados",
+      "9": "B-Participacion_Comunitaria",
+      "10": "I-Participacion_Comunitaria",
+      "11": "L-Participacion_Comunitaria",
+      "12": "U-Participacion_Comunitaria",
+      "13": "B-Territorio_Madre_Tierra",
+      "14": "I-Territorio_Madre_Tierra",
+      "15": "L-Territorio_Madre_Tierra",
+      "16": "U-Territorio_Madre_Tierra",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-Autonomia_Territorial": 1,
+      "I-Autonomia_Territorial": 2,
+      "L-Autonomia_Territorial": 3,
+      "U-Autonomia_Territorial": 4,
+      "B-Estados": 5,
+      "I-Estados": 6,
+      "L-Estados": 7,
+      "U-Estados": 8,
+      "B-Participacion_Comunitaria": 9,
+      "I-Participacion_Comunitaria": 10,
+      "L-Participacion_Comunitaria": 11,
+      "U-Participacion_Comunitaria": 12,
+      "B-Territorio_Madre_Tierra": 13,
+      "I-Territorio_Madre_Tierra": 14,
+      "L-Territorio_Madre_Tierra": 15,
+      "U-Territorio_Madre_Tierra": 16,
+      "O": 0
+    },
+    "num_tags": 17
+  }
+]
