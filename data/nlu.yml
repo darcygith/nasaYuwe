@@ -1,20 +1,62 @@
 version: "3.1"
 
 nlu:
-- intent: traducir_nasa
+#Historia valores y principios
+- intent: frase_1
   examples: |
-    - [kwe'sx uma kiwe îtxi](Territorio_Madre_Tierra) wãt fxies fxi’zen ûsthaw [nasa we’sxa](Autonomia_Territorial) Thê’sa thwê’jxinitx yahtxna, kwe’sx ksxa’wtxi peçxkaname.
+    - [kwe'sx uma kiwe îtxi](Territorio_Madre_Tierra) wãt fxies fxi’zen ûsthaw [nasa we'sxa](Autonomia_Territorial) Thê’sa thwê’jxinitx yahtxna, kwe’sx ksxa’wtxi peçxkaname [Txanteywe'sxa](Memoria_historica)
+    - [nasa we'sxa](Autonomia_Territorial) Thê’sa thwê’jxinitx yahtxna
     - [kwe'sx uma kiwe îtxi](Territorio_Madre_Tierra) wãt fxies fxi’zen ûsthaw
     - [nasa we'sxa](Autonomia_Territorial) Thê’sa thwê’jxinitx yahtxna, kwe’sx ksxa’wtxi peçxkaname
-    - [kwe'sx uma kiwe îtxi](Territorio_Madre_Tierra)
     - [kwe'sx uma kiwe îtxi](Territorio_Madre_Tierra) ûsjwaja’as peesuk txãpaka jxuhkasay pêeykaja’ka
     - [Nasa we'sxa](Autonomia_Territorial) kwe’sxthaw ûsyahtxa mjîi’ una kiwes txakwe subyame’
+    - Thê’sa thwê’jxinitx yahtxna, kwe’sx ksxa’wtxi peçxkaname [Txanteywe'sxa](Memoria_historica)
 
-- intent: traducir_nasa_2
+#historia gubernamental
+- intent: frase_2
   examples: |
     - [Eka nasawe'sxa](Estados) paapeî’ ji’pta’ [Nasa we’sx](Participacion_Comunitaria), kwe’sx nasatxis naa u’pta çxhab walasu kaanxi txãwe’sx eçfxi’nxi ûsteyu’ tegunxa ãn kwe’sx uma kiwes subwasametewa
     - [Nasa we'sx](Participacion_Comunitaria) kwe’sx nasatxis naa u’pta çxhab walasu kaanxi txãwe’sx eçfxi’nxi ûsteyu’ tegunxa ãn kwe’sx uma kiwes subwasametewa
     - [Eka nasawe'sxa](Estados) paapeî’ ji’pta’ kwe’sx nasatxis naa u’pta çxhab walasu kaanxi txãwe’sx eçfxi’nxi ûsteyu’ tegunxa ãn kwe’sx uma kiwes subwasametewa
+    - [Eka nasawe'sxa](Estados) [thêsa kiwe yuwe puiinxitxis eskhe vxitna yuhta](Derecho_Territorial) nasa we’sxitxis vxite nasatx dukna 
+    - [thêsa kiwe yuwe puiinxitxis eskhe vxitna yuhta](Derecho_Territorial)
+
+#historia conflicto armado
+- intent: frase_3
+  examples: |
+    - Eka we’sx nasa eç fxi’nxi nwe’weçme txã paka  [nasa' çxhab walan u'jn ûsta](Desplazamiento) yuwe walatx tegmete
+    - [nasa' çxhab walan u'jn ûsta](Desplazamiento)
+    - [nasa' çxhab walan u'jn ûsta](Desplazamiento) yuwe walatx tegmete
+
+#historia conflicto armado
+- intent: frase_4
+  examples: |
+    - [Çxhaçxçxhaçxha waki'jn u'jwena'w yuwe tuthtxis puuin](Resistencia_Unidad) ja’da pkhakheçxha uhn îtxi fxi’zewaja’s. 
+    - [Çxhaçxçxhaçxha waki'jn u'jwena'w yuwe tuthtxis puuin](Resistencia_Unidad)
+
+#historia conflicto armado
+- intent: frase_5
+  examples: |
+    - [Çaam atuwe'sxa](Conflicto_Armado) meh akasa dwihtxi [txãntey dxi'j kikxnxitxis kaasxigun](Memoria_Historica) naa Caucate
+    - [Çaam atuwe'sxa](Conflicto_Armado) meh akasa dwihtxi
+    - [Çaam atuwe'sxa](Conflicto_Armado) meh kpa’ walasa dwihtxi nasa we’sxtxi.
+    - meh akasa dwihtxi [txãntey dxi'j kikxnxitxis kaasxigun](Memoria_Historica) naa Caucate
+
+#historia conclicto armado
+- intent: frase_6
+  examples: |
+    - [Fxiy fxiy nasa we'sxa](Diversidad_Etnica_Cultural) teeçx na’wçxa [çxhaçxçxhaçxha yujun ûswa' yuuna](Resistencia_Pacifica)
+    - Kwe’sxwa pêeykathasuthaw maz nasa ûsnetkhaw naa kiwete [Fxiy fxiy nasa we'sxa](Diversidad_Etnica_Cultural)
+    - [Fxiy fxiy nasa we'sxa](Diversidad_Etnica_Cultural)
+    - [çxhaçxçxhaçxha yujun ûswa' yuuna](Resistencia_Pacifica)
+
+#historia comunidad fortalecida
+- intent: frase_7
+  examples: |
+    - [Çxhaçxha yahtxte](Resistencia_Pacifica) ewsa vxan [u'jwena çxhaçxçxhaçxha](Caminos_Resistencia). 
+    - [u'jwena çxhaçxçxhaçxha](Caminos_Resistencia)
+    - [Çxhaçxha yahtxte](Resistencia_Pacifica)
+
 
 
 
