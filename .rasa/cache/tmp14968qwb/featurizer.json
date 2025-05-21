@@ -1,0 +1,53 @@
+{
+  "type": "IntentMaxHistoryTrackerFeaturizer",
+  "state_featurizer": {
+    "action_texts": [],
+    "entity_tag_specs": [],
+    "feature_states": {
+      "intent": {
+        "back": 0,
+        "frase_1": 1,
+        "frase_2": 2,
+        "nlu_fallback": 3,
+        "out_of_scope": 4,
+        "restart": 5,
+        "session_start": 6
+      },
+      "action_name": {
+        "action_listen": 0,
+        "action_restart": 1,
+        "action_session_start": 2,
+        "action_default_fallback": 3,
+        "action_deactivate_loop": 4,
+        "action_revert_fallback_events": 5,
+        "action_default_ask_affirmation": 6,
+        "action_default_ask_rephrase": 7,
+        "action_two_stage_fallback": 8,
+        "action_unlikely_intent": 9,
+        "action_back": 10,
+        "...": 11,
+        "action_extract_slots": 12,
+        "action_traduccion_nasa": 13,
+        "action_traduccion_nasa_2": 14
+      },
+      "entities": {
+        "Autonomia_Territorial": 0,
+        "Derecho_Territorial": 1,
+        "Estados": 2,
+        "Memoria_Historica": 3,
+        "Participacion_Comunitaria": 4,
+        "Territorio_Madre_Tierra": 5
+      },
+      "slots": {
+        "Territorio_Madre_Tierra_0": 0,
+        "Autonomia_Territorial_0": 1,
+        "Estados_0": 2,
+        "Participacion_Comunitaria_0": 3,
+        "Derecho_Territorial_0": 4
+      },
+      "active_loop": {}
+    }
+  },
+  "remove_duplicates": true,
+  "max_history": 5
+}

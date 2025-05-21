@@ -11,27 +11,27 @@ rules:
       - intent: frase_2
       - action: action_traduccion_nasa_2
   
-  - rule: responder desplazamiento
-    steps:
-      - intent: frase_3
-      - action: action_frase_3
+  # - rule: responder desplazamiento
+  #   steps:
+  #     - intent: frase_3
+  #     - action: action_frase_3
 
-  - rule: responder resistencia unidad
-    steps:
-      - intent: frase_4
-      - action: action_frase_4
+  # - rule: responder resistencia unidad
+  #   steps:
+  #     - intent: frase_4
+  #     - action: action_frase_4
 
-  - rule: responder conflicto armado y memoria
-    steps:
-      - intent: frase_5
-      - action: action_frase_5
+  # - rule: responder conflicto armado y memoria
+  #   steps:
+  #     - intent: frase_5
+  #     - action: action_frase_5
 
-  - rule: responder diversidad cultural y resistencia pacífica
-    steps:
-      - intent: frase_6
-      - action: action_frase_6
+  # - rule: responder diversidad cultural y resistencia pacífica
+  #   steps:
+  #     - intent: frase_6
+  #     - action: action_frase_6
 
-  - rule: responder comunidad fortalecida
-    steps:
-      - intent: frase_7
-      - action: action_frase_7
+  # - rule: responder comunidad fortalecida
+  #   steps:
+  #     - intent: frase_7
+  #     - action: action_frase_7

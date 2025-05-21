@@ -11,54 +11,54 @@ stories:
       - intent: frase_2
       - action: action_traduccion_nasa_2
   #conflicto armado y sus combinaciones 
-  - story: conflicto orden clasico
-    steps:
-      - intent: frase_3
-      - action: action_frase_3
-      - intent: frase_4
-      - action: action_frase_4
-      - intent: frase_5
-      - action: action_frase_5
-      - intent: frase_6
-      - action: action_frase_6
+  # - story: conflicto orden clasico
+  #   steps:
+  #     - intent: frase_3
+  #     - action: action_frase_3
+  #     - intent: frase_4
+  #     - action: action_frase_4
+  #     - intent: frase_5
+  #     - action: action_frase_5
+  #     - intent: frase_6
+  #     - action: action_frase_6
 
-  - story: conflicto inicia con resistencia
-    steps:
-      - intent: frase_4
-      - action: action_frase_4
-      - intent: frase_6
-      - action: action_frase_6
-      - intent: frase_3
-      - action: action_frase_3
-      - intent: frase_5
-      - action: action_frase_5
+  # - story: conflicto inicia con resistencia
+  #   steps:
+  #     - intent: frase_4
+  #     - action: action_frase_4
+  #     - intent: frase_6
+  #     - action: action_frase_6
+  #     - intent: frase_3
+  #     - action: action_frase_3
+  #     - intent: frase_5
+  #     - action: action_frase_5
 
-  - story: conflicto inicia con diversidad
-    steps:
-      - intent: frase_6
-      - action: action_frase_6
-      - intent: frase_5
-      - action: action_frase_5
-      - intent: frase_4
-      - action: action_frase_4
-      - intent: frase_3
-      - action: action_frase_3
+  # - story: conflicto inicia con diversidad
+  #   steps:
+  #     - intent: frase_6
+  #     - action: action_frase_6
+  #     - intent: frase_5
+  #     - action: action_frase_5
+  #     - intent: frase_4
+  #     - action: action_frase_4
+  #     - intent: frase_3
+  #     - action: action_frase_3
 
-  - story: conflicto desplazamiento → memoria
-    steps:
-      - intent: frase_3
-      - action: action_frase_3
-      - intent: frase_5
-      - action: action_frase_5
+  # - story: conflicto desplazamiento → memoria
+  #   steps:
+  #     - intent: frase_3
+  #     - action: action_frase_3
+  #     - intent: frase_5
+  #     - action: action_frase_5
 
-  - story: conflicto resistencia → diversidad
-    steps:
-      - intent: frase_4
-      - action: action_frase_4
-      - intent: frase_6
-      - action: action_frase_6
+  # - story: conflicto resistencia → diversidad
+  #   steps:
+  #     - intent: frase_4
+  #     - action: action_frase_4
+  #     - intent: frase_6
+  #     - action: action_frase_6
       
-  - story: comunidad fortalecida
-    steps:
-      - intent: frase_7
-      - action: action_frase_7
+  # - story: comunidad fortalecida
+  #   steps:
+  #     - intent: frase_7
+  #     - action: action_frase_7

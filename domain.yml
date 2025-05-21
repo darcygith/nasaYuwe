@@ -3,11 +3,11 @@ version: "3.1"
 intents:
   - frase_1
   - frase_2
-  - frase_3
-  - frase_4
-  - frase_5
-  - frase_6
-  - frase_7
+  # - frase_3
+  # - frase_4
+  # - frase_5
+  # - frase_6
+  # - frase_7
 
 entities:
   - Territorio_Madre_Tierra
@@ -16,12 +16,12 @@ entities:
   - Estados
   - Participacion_Comunitaria
   - Derecho_Territorial
-  - Desplazamiento
-  - Resistencia_Unidad
-  - Conflicto_Armado
-  - Diversidad_Etnica_Cultural
-  - Resistencia_Pacifica
-  - Caminos_Resistencia
+  # - Desplazamiento
+  # - Resistencia_Unidad
+  # - Conflicto_Armado
+  # - Diversidad_Etnica_Cultural
+  # - Resistencia_Pacifica
+  # - Caminos_Resistencia
 
 slots:
   Territorio_Madre_Tierra:
@@ -57,57 +57,57 @@ slots:
       - type: from_entity
         entity: Derecho_Territorial
 
-  Desplazamiento:
-    type: text
-    influence_conversation: false
-    mappings:
-      - type: from_entity
-        entity: Desplazamiento
+  # Desplazamiento:
+  #   type: text
+  #   influence_conversation: false
+  #   mappings:
+  #     - type: from_entity
+  #       entity: Desplazamiento
 
-  Resistencia_Unidad:
-    type: text
-    influence_conversation: false
-    mappings:
-      - type: from_entity
-        entity: Resistencia_Unidad
+  # Resistencia_Unidad:
+  #   type: text
+  #   influence_conversation: false
+  #   mappings:
+  #     - type: from_entity
+  #       entity: Resistencia_Unidad
 
-  Conflicto_Armado:
-    type: text
-    influence_conversation: false
-    mappings:
-      - type: from_entity
-        entity: Conflicto_Armado
+  # Conflicto_Armado:
+  #   type: text
+  #   influence_conversation: false
+  #   mappings:
+  #     - type: from_entity
+  #       entity: Conflicto_Armado
 
-  Diversidad_Etnica_Cultural:
-    type: text
-    influence_conversation: false
-    mappings:
-      - type: from_entity
-        entity: Diversidad_Etnica_Cultural
+  # Diversidad_Etnica_Cultural:
+  #   type: text
+  #   influence_conversation: false
+  #   mappings:
+  #     - type: from_entity
+  #       entity: Diversidad_Etnica_Cultural
 
-  Resistencia_Pacifica:
-    type: text
-    influence_conversation: false
-    mappings:
-      - type: from_entity
-        entity: Resistencia_Pacifica
+  # Resistencia_Pacifica:
+  #   type: text
+  #   influence_conversation: false
+  #   mappings:
+  #     - type: from_entity
+  #       entity: Resistencia_Pacifica
   
-  Caminos_Resistencia:
-    type: text
-    influence_conversation: false
-    mappings:
-      - type: from_entity
-        entity: Caminos_Resistencia
+  # Caminos_Resistencia:
+  #   type: text
+  #   influence_conversation: false
+  #   mappings:
+  #     - type: from_entity
+  #       entity: Caminos_Resistencia
 
 
 actions:
   - action_traduccion_nasa
   - action_traduccion_nasa_2
-  - action_frase_3
-  - action_frase_4
-  - action_frase_5
-  - action_frase_6
-  - action_frase_7
+  # - action_frase_3
+  # - action_frase_4
+  # - action_frase_5
+  # - action_frase_6
+  # - action_frase_7
 
 
 session_config:
