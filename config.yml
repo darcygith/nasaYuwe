@@ -24,6 +24,7 @@ pipeline:
     epochs: 100
   - name: FallbackClassifier
     threshold: 0.6  # Ajusta el umbral para evitar que se
+    ambiguity_threshold: 0.1
 
 policies:
   - name: MemoizationPolicy

@@ -14,24 +14,24 @@ TRADUCCIONES_NASA_2 = {
     "thêsa kiwe yuwe puiinxitxis eskhe vxitna yuhta": "derechos territoriales tradicionales"
 }
 
-# TRADUCCIONES_NASA_3 = {
-#     "nasa' çxhab walan u'jn ûsta":"vulnerabilidad"
+TRADUCCIONES_NASA_3 = {
+    "çxhab walan u'jn ûsta":"vulnerables"
 
-# }
+ }
 
-# TRADUCCIONES_NASA_4 = {
-#     "Çxhaçxçxhaçxha waki'jn u'jwena'w yuwe tuthtxis puuin": "resistiendo  y vamos a luchar"
-# }
+TRADUCCIONES_NASA_4 = {
+    "Çxhaçxçxhaçxha waki'jn u'jwena'w yuwe tuthtxis puuin": "resistiendo  y vamos a luchar"
+ }
 
-# TRADUCCIONES_NASA_5 = {
-#     "Çaam atuwe'sxa": "actores armados",
-#     "txãntey dxi'j kikxnxitxis kaasxigun": "procesos ancestrales memoriales"
-# }
+TRADUCCIONES_NASA_5 = {
+    "Çaam atuwe'sxa'": "actores armados",
+    "txãntey dxi'j kikxnxitxis kaasxigun": "procesos ancestrales memoriales"
+}
 
-# TRADUCCIONES_NASA_6 = {
-#     "fxiy fxiy nasa we'sxa'": "diversidad de pueblos indígenas",
-#     "çxhaçxçxhaçxha yujun ûswa' yuuna": "resistencia"
-# }
+TRADUCCIONES_NASA_6 = {
+    "fxiy fxiy nasa we'sxa": "diversidad de pueblos indígenas",
+    "çxhaçxçxhaçxha yujun ûswa' yuuna": "resistencia"
+}
 
 # TRADUCCIONES_NASA_7 = {
 #     "Çxhaçxha yahtxte": "Resistencia pacifica",
@@ -46,7 +46,7 @@ TRADUCCIONES_NASA_2 = {
 def traducir(slot_value, traducciones):
     if not slot_value:
         return ""
-    clave = slot_value.strip().lower()
+    clave = slot_value.strip()
     return traducciones.get(clave, slot_value)  
 
 class ActionTraducirNasa(Action):
@@ -66,7 +66,8 @@ class ActionTraducirNasa(Action):
 
 
         # Formatear y enviar el mensaje con las traducciones
-        mensaje = f" El indigena se refiere a la existencia de una relación fundamental entre {tierra_trad} donde los {autonomia_trad} tejen  {historia_trad} en la comunidad."
+        mensaje = f" El indígena se refiere a la profunda relación entre { tierra_trad}, la {historia_trad} y la sabiduría de su pueblo. Para los {autonomia_trad}, la tierra es vida, memoria y espiritualidad; su cuidado es colectivo y refleja la autonomía para decidir sobre su uso y protección."
+        
         
         dispatcher.utter_message(text=mensaje)
         return []
@@ -87,77 +88,79 @@ class ActionTraducirNasa2(Action):
         derechoT_trad = traducir(derechoT, TRADUCCIONES_NASA_2)
 
         # Formatear y enviar el mensaje con las traducciones
-        mensaje = f"El indigena se refiere  {estado_trad}, {participacion_trad} y {derechoT_trad}"
+        mensaje = f"El indígena se refiere al derecho de ser consultado de buena fe por los {estado_trad} antes de que se aprueben proyectos que afecten sus tierras. Sin embargo, estos han ignorado históricamente la {participacion_trad} y los { derechoT_trad} de los pueblos indígenas, priorizando intereses externos."
+
         dispatcher.utter_message(text=mensaje)
         return []
 
-# class ActionTraducirNasa3(Action):
-#     def name(self):
-#         return "action_frase_3" 
+class ActionTraducirNasa3(Action):
+    def name(self):
+        return "action_frase_3" 
 
-#     def run(self, dispatcher, tracker, domain):
-#         # Obtener los valores de los slots
-#         desplazamiento= tracker.get_slot("Desplazamiento")
+    def run(self, dispatcher, tracker, domain):
+        # Obtener los valores de los slots
+        desplazamiento= tracker.get_slot("Desplazamiento")
+        print(f"Valor slot Desplazamiento: '{desplazamiento}'")
 
-#         # Aplicar la traducción
-#         desplazamiento_trad = traducir(desplazamiento, TRADUCCIONES_NASA_3)
+        # Aplicar la traducción
+        desplazamiento_trad = traducir(desplazamiento, TRADUCCIONES_NASA_3)
 
-#         # Formatear y enviar el mensaje con las traducciones
-#         mensaje = f"El indigena se refiere  al conflicto armado en especial {desplazamiento_trad}"
-#         dispatcher.utter_message(text=mensaje)
-#         return []
+        # Formatear y enviar el mensaje con las traducciones
+        mensaje = f"El indigena se refiere  al conflicto armado en especial las personas {desplazamiento_trad}"
+        dispatcher.utter_message(text=mensaje)
+        return []
 
-# class ActionTraducirNasa4(Action):
-#     def name(self):
-#         return "action_frase_4" 
+class ActionTraducirNasa4(Action):
+    def name(self):
+        return "action_frase_4" 
 
-#     def run(self, dispatcher, tracker, domain):
-#         # Obtener los valores de los slots
-#         rUnidad = tracker.get_slot("Resistencia_Unidad")
+    def run(self, dispatcher, tracker, domain):
+        # Obtener los valores de los slots
+        rUnidad = tracker.get_slot("Resistencia_Unidad")
 
-#         # Aplicar la traducción
-#         unidad_trad = traducir(rUnidad, TRADUCCIONES_NASA_4)
+        # Aplicar la traducción
+        unidad_trad = traducir(rUnidad, TRADUCCIONES_NASA_4)
 
-#         # Formatear y enviar el mensaje con las traducciones
-#         mensaje = f"El indigena se refiere que vamos a seguir {unidad_trad} sin olvidar el tejido social."
-#         dispatcher.utter_message(text=mensaje)
-#         return []
+        # Formatear y enviar el mensaje con las traducciones
+        mensaje = f"El indigena se refiere que vamos a seguir {unidad_trad} sin olvidar el tejido social."
+        dispatcher.utter_message(text=mensaje)
+        return []
 
-# class ActionTraducirNasa5(Action):
-#     def name(self):
-#         return "action_frase_5" 
+class ActionTraducirNasa5(Action):
+    def name(self):
+        return "action_frase_5" 
 
-#     def run(self, dispatcher, tracker, domain):
-#         # Obtener los valores de los slots
-#         conflicto = tracker.get_slot("Conflicto_Armado")
-#         historia = tracker.get_slot("Memoria_Historica")
+    def run(self, dispatcher, tracker, domain):
+        # Obtener los valores de los slots
+        conflicto = tracker.get_slot("Conflicto_Armado")
+        historia = tracker.get_slot("Memoria_Historica")
 
-#         # Aplicar la traducción
-#         conflicto_trad = traducir(conflicto, TRADUCCIONES_NASA_5)
-#         historia_trad = traducir(historia, TRADUCCIONES_NASA_5)
+        # Aplicar la traducción
+        conflicto_trad = traducir(conflicto, TRADUCCIONES_NASA_5)
+        historia_trad = traducir(historia, TRADUCCIONES_NASA_5)
 
-#         # Formatear y enviar el mensaje con las traducciones
-#         mensaje = f"El indigena se refiere {conflicto_trad} han dejado profundas heridas marcando dolorosos momentos en los {historia_trad} del Cauca "
-#         dispatcher.utter_message(text=mensaje)
-#         return []
+        # Formatear y enviar el mensaje con las traducciones
+        mensaje = f"El indigena se refiere {conflicto_trad} han dejado profundas heridas marcando dolorosos momentos en los {historia_trad} del Cauca "
+        dispatcher.utter_message(text=mensaje)
+        return []
 
-# class ActionTraducirNasa6(Action):
-#     def name(self):
-#         return "action_frase_6" 
+class ActionTraducirNasa6(Action):
+    def name(self):
+        return "action_frase_6" 
 
-#     def run(self, dispatcher, tracker, domain):
-#         # Obtener los valores de los slots
-#         diversidad = tracker.get_slot("Diversidad_Etnica_Cultural")
-#         resistencia = tracker.get_slot("Resistencia_Pacificica")
+    def run(self, dispatcher, tracker, domain):
+        # Obtener los valores de los slots
+        diversidad = tracker.get_slot("Diversidad_Etnica_Cultural")
+        resistencia = tracker.get_slot("Resistencia_Pacificica")
 
-#         # Aplicar la traducción
-#         diversidad_trad = traducir(diversidad, TRADUCCIONES_NASA_6)
-#         resistencia_trad = traducir(resistencia, TRADUCCIONES_NASA_6)
+        # Aplicar la traducción
+        diversidad_trad = traducir(diversidad, TRADUCCIONES_NASA_6)
+        resistencia_trad = traducir(resistencia, TRADUCCIONES_NASA_6)
 
-#         # Formatear y enviar el mensaje con las traducciones
-#         mensaje = f"El indigena se refiere a construir un pais que respete {diversidad_trad} se ha unido a una sola voz {resistencia_trad} y la vida uniendose a una voz de {resistencia_trad}"
-#         dispatcher.utter_message(text=mensaje)
-#         return []
+        # Formatear y enviar el mensaje con las traducciones
+        mensaje = f"El indigena se refiere a construir un pais que respete {diversidad_trad} se ha unido a una sola voz {resistencia_trad}"
+        dispatcher.utter_message(text=mensaje)
+        return []
     
 # class ActionTraducirNasa7(Action):
 #     def name(self):
