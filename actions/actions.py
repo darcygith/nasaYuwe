@@ -66,7 +66,7 @@ class ActionTraducirNasa(Action):
 
 
         # Formatear y enviar el mensaje con las traducciones
-        mensaje = f" El indígena se refiere a la profunda relación entre { tierra_trad}, la {historia_trad} y la sabiduría de su pueblo. Para los {autonomia_trad}, la tierra es vida, memoria y espiritualidad; su cuidado es colectivo y refleja la autonomía para decidir sobre su uso y protección."
+        mensaje = f" El indígena se refiere a la profunda relación entre {tierra_trad}, la {historia_trad} y la sabiduría de su pueblo. Para los {autonomia_trad}, la tierra es vida, memoria y espiritualidad; su cuidado es colectivo y refleja la autonomía para decidir sobre su uso y protección."
         
         
         dispatcher.utter_message(text=mensaje)
