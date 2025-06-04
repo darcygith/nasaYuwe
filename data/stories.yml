@@ -59,7 +59,7 @@ stories:
       - intent: frase_6
       - action: action_frase_6
       
-  # - story: comunidad fortalecida
-  #   steps:
-  #     - intent: frase_7
-  #     - action: action_frase_7
+  - story: comunidad fortalecida
+    steps:
+      - intent: frase_7
+      - action: action_frase_7

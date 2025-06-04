@@ -33,10 +33,10 @@ TRADUCCIONES_NASA_6 = {
     "çxhaçxçxhaçxha yujun ûswa' yuuna": "resistencia"
 }
 
-# TRADUCCIONES_NASA_7 = {
-#     "Çxhaçxha yahtxte": "Resistencia pacifica",
-#     "u'jwena çxhaçxçxhaçxha": "propuesta de transformación"
-# }
+TRADUCCIONES_NASA_7 = {
+    "Çxhaçxha yahtxte": "Resistencia pacifica",
+    "u'jwena çxhaçxçxhaçxha": "propuesta de transformación"
+}
 
 # #limpiar comillas
 # def clean_Comillas(frase):
@@ -162,20 +162,20 @@ class ActionTraducirNasa6(Action):
         dispatcher.utter_message(text=mensaje)
         return []
     
-# class ActionTraducirNasa7(Action):
-#     def name(self):
-#         return "action_frase_7" 
+class ActionTraducirNasa7(Action):
+    def name(self):
+        return "action_frase_7" 
 
-#     def run(self, dispatcher, tracker, domain):
-#         # Obtener los valores de los slots
-#         resistencia = tracker.get_slot("Resistencia_Pacifica")
-#         caminoR = tracker.get_slot("Caminos_Resistencia")
+    def run(self, dispatcher, tracker, domain):
+        # Obtener los valores de los slots
+        resistencia = tracker.get_slot("Resistencia_Pacifica")
+        caminoR = tracker.get_slot("Caminos_Resistencia")
 
-#         # Aplicar la traducción
-#         resistencia_trad = traducir(resistencia, TRADUCCIONES_NASA_7)
-#         caminoR_trad = traducir(caminoR, TRADUCCIONES_NASA_7)
+        # Aplicar la traducción
+        resistencia_trad = traducir(resistencia, TRADUCCIONES_NASA_7)
+        caminoR_trad = traducir(caminoR, TRADUCCIONES_NASA_7)
 
-#         # Formatear y enviar el mensaje con las traducciones
-#         mensaje = f"El indigena se refiere a la {resistencia_trad} surge como {caminoR_trad} para la comunidad."
-#         dispatcher.utter_message(text=mensaje)
-#         return []
+        # Formatear y enviar el mensaje con las traducciones
+        mensaje = f"El indigena se refiere a la {resistencia_trad} surge como {caminoR_trad} para la comunidad."
+        dispatcher.utter_message(text=mensaje)
+        return []

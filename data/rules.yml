@@ -31,7 +31,7 @@ rules:
       - intent: frase_6
       - action: action_frase_6
 
-  # - rule: responder comunidad fortalecida
-  #   steps:
-  #     - intent: frase_7
-  #     - action: action_frase_7
+  - rule: responder comunidad fortalecida
+    steps:
+      - intent: frase_7
+      - action: action_frase_7

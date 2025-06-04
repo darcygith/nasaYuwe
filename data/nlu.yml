@@ -62,12 +62,12 @@ nlu:
     - [fxiy fxiy nasa we'sxa](Diversidad_Etnica_Cultural) '
     - [çxhaçxçxhaçxha yujun ûswa' yuuna](Resistencia_Pacifica)
 
-# #historia comunidad fortalecida
-# - intent: frase_7
-#   examples: |
-#     - [Çxhaçxha yahtxte](Resistencia_Pacifica) ewsa vxan [u'jwena çxhaçxçxhaçxha](Caminos_Resistencia). 
-#     - [u'jwena çxhaçxçxhaçxha](Caminos_Resistencia)
-#     - [Çxhaçxha yahtxte](Resistencia_Pacifica)
+#historia comunidad fortalecida
+- intent: frase_7
+  examples: |
+    - [Çxhaçxha yahtxte](Resistencia_Pacifica) ewsa vxan [u'jwena çxhaçxçxhaçxha](Caminos_Resistencia). 
+    - [u'jwena çxhaçxçxhaçxha](Caminos_Resistencia)
+    - [Çxhaçxha yahtxte](Resistencia_Pacifica)
 
 
 

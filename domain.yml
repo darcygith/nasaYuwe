@@ -7,7 +7,7 @@ intents:
   - frase_4
   - frase_5
   - frase_6
-  # - frase_7
+  - frase_7
 
 entities:
   - Territorio_Madre_Tierra
@@ -107,7 +107,7 @@ actions:
   - action_frase_4
   - action_frase_5
   - action_frase_6
-  #- action_frase_7
+  - action_frase_7
 
 
 session_config:
