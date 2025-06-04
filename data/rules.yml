@@ -4,12 +4,16 @@ rules:
   - rule: responder historia valores y principios
     steps:
       - intent: frase_1
-      - action: action_traduccion_nasa
+      - action: action_frase_1
+  - rule: responder valores
+    steps:
+      - intent: frase_1_2
+      - action: action_frase_1_2
 
   - rule: responder al gobierno
     steps:
       - intent: frase_2
-      - action: action_traduccion_nasa_2
+      - action: action_frase_2
   
   - rule: responder desplazamiento
     steps:
@@ -35,3 +39,23 @@ rules:
     steps:
       - intent: frase_7
       - action: action_frase_7
+
+  - rule: responder recuperacion de tierras
+    steps:
+      - intent: frase_8
+      - action: action_frase_8
+
+  - rule: responder recuperacion tierras, memoria historica, dignidad humana
+    steps:
+      - intent: frase_9
+      - action: action_frase_9
+
+  - rule: responder espiritualidad
+    steps:
+      - intent: frase_10
+      - action: action_frase_10
+
+  - rule: responder defensa territorio
+    steps:
+      - intent: frase_11
+      - action: action_frase_11

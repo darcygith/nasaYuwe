@@ -2,12 +2,17 @@ version: "3.1"
 
 intents:
   - frase_1
+  - frase_1_2
   - frase_2
   - frase_3
   - frase_4
   - frase_5
   - frase_6
   - frase_7
+  - frase_8
+  - frase_9
+  - frase_10
+  - frase_11
 
 entities:
   - Territorio_Madre_Tierra
@@ -22,6 +27,13 @@ entities:
   - Diversidad_Etnica_Cultural
   - Resistencia_Pacifica
   - Caminos_Resistencia
+
+  - Cultura_Autonomia
+  - Recuperacion_tierras_resguardo
+  - Dignidad_Humana
+  - Espiritualidad_Nasa
+  - Defensa_Territorio
+  - Autoridad_Propia
 
 slots:
   Territorio_Madre_Tierra:
@@ -100,14 +112,61 @@ slots:
         entity: Caminos_Resistencia
 
 
+Cultura_Autonomia:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_entity
+        entity: Cultura_Autonomia
+
+Recuperacion_tierras_resguardo:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_entity
+        entity: Recuperacion_tierras_resguardo
+
+Dignidad_Humana:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_entity
+        entity: Dignidad_Humana
+
+Espiritualidad_Nasa:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_entity
+        entity: Espiritualidad_Nasa
+
+Defensa_Territorio:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_entity
+        entity: Defensa_Territorio
+
+Autoridad_Propia:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_entity
+        entity: Autoridad_Propia
+
 actions:
-  - action_traduccion_nasa
-  - action_traduccion_nasa_2
+  - action_frase_1
+  - action_frase_1_2
+  - action_frase_2
   - action_frase_3
   - action_frase_4
   - action_frase_5
   - action_frase_6
   - action_frase_7
+  - action_frase_8
+  - action_frase_9
+  - action_frase_10
+  - action_frase_11
 
 
 session_config:

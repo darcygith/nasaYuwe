@@ -7,6 +7,10 @@ TRADUCCIONES_NASA = {
     "nasa we'sxa": "Pueblos indigenas",
     "txanteywe'sxa": "Historia"
 }
+TRADUCCIONES_NASA_1_2 = {
+    "Kwe'sx uma kiwe meewãça": "Sin la Madre Tierra",
+    "kihwã nasa fxi'zenxi menxuna": "no hay tradiciones culturales",
+}
 
 TRADUCCIONES_NASA_2 = {
     "eka nasawe'sxa": "Estados",
@@ -38,6 +42,29 @@ TRADUCCIONES_NASA_7 = {
     "u'jwena çxhaçxçxhaçxha": "propuesta de transformación"
 }
 
+TRADUCCIONES_NASA_8 = {
+    "kwe'sx uma kiwes puiinxi": "luchar por nuestra Madre tierra",
+    "kiwe pa'ka meh puîn ûsthaw": "liberando nuestra Madre Tierra",
+    "kwe'sx uma kiwe puiinxi": "Recuperar de nuestra Madre Tierra"
+}
+
+TRADUCCIONES_NASA_9 = {
+    "kwe'sx uma kiwe puiinxi dxi'j": "los procesos de la lucha por la tierra",
+    "neeyunxa  ûs yahtxna u'jwa'json": "memorias historicas",
+    "Kwe'sx uma kiwe pa'ka puuîn": "lucha por la Madre Tierra",
+    "txãw yuçxha'wãt fxi'zena'w": "recuperar nuestra dignidad humana"
+}
+
+TRADUCCIONES_NASA_10 = {
+    "txanteywe'sxa": "ancestrales memoriales",
+    "ksxa'w we'sxa": "Seres Espirituales"
+}
+
+TRADUCCIONES_NASA_11 = {
+    "kwe'sx uma kiwe": "Nuestro Territorio",
+    "kwe'sx fxi'zenxitxis": "Tradiciones Culturales",
+    "ukawe'sxa": "Autoridades Propias"
+}
 # #limpiar comillas
 # def clean_Comillas(frase):
 #     return frase.replace("’","'")
@@ -51,7 +78,7 @@ def traducir(slot_value, traducciones):
 
 class ActionTraducirNasa(Action):
     def name(self):
-        return "action_traduccion_nasa"  
+        return "action_frase_1"  
 
     def run(self, dispatcher, tracker, domain):
         # Obtener los valores de los slots
@@ -72,9 +99,28 @@ class ActionTraducirNasa(Action):
         dispatcher.utter_message(text=mensaje)
         return []
 
+class ActionTraducirNasa(Action):
+    def name(self):
+        return "action_frase_1_2"  
+
+    def run(self, dispatcher, tracker, domain):
+        # Obtener los valores de los slots
+        ter = tracker.get_slot("Territorio_Madre_Tierra")
+        autonomia = tracker.get_slot("Cultura_Autonomia")
+
+        # Aplicar la traducción
+        ter_trad = traducir(ter, TRADUCCIONES_NASA_1_2)
+        autonomia_trad = traducir(autonomia, TRADUCCIONES_NASA_1_2)
+
+        # Formatear y enviar el mensaje con las traducciones
+        mensaje = f" El indígena se refiere que  {ter_trad}, la {autonomia_trad}  ni posibilidad para los pueblos indígenas"
+        
+        dispatcher.utter_message(text=mensaje)
+        return []
+    
 class ActionTraducirNasa2(Action):
     def name(self):
-        return "action_traduccion_nasa_2" 
+        return "action_frase_2" 
 
     def run(self, dispatcher, tracker, domain):
         # Obtener los valores de los slots
@@ -177,5 +223,90 @@ class ActionTraducirNasa7(Action):
 
         # Formatear y enviar el mensaje con las traducciones
         mensaje = f"El indigena se refiere a la {resistencia_trad} surge como {caminoR_trad} para la comunidad."
+        dispatcher.utter_message(text=mensaje)
+        return []
+
+class ActionTraducirNasa8(Action):
+    def name(self):
+        return "action_frase_8" 
+
+    def run(self, dispatcher, tracker, domain):
+        # Obtener los valores de los slots
+        lucha_tierras = tracker.get_slot("Recuperacion_tierras_resguardo")
+        libertad_tierras = tracker.get_slot("Recuperacion_tierras_resguardo")
+        recuper_tierras = tracker.get_slot("Recuperacion_tierras_resguardo")
+
+        # Aplicar la traducción
+        lucha_trad = traducir(lucha_tierras, TRADUCCIONES_NASA_8)
+        libertad_trad = traducir(libertad_tierras, TRADUCCIONES_NASA_8)
+        recup_trad = traducir(recuper_tierras, TRADUCCIONES_NASA_8)
+
+        # Formatear y enviar el mensaje con las traducciones
+        mensaje = f"El indigena se refiere a la {lucha_trad} donde el departamento del Cauca estamos {libertad_trad} y {recup_trad} ha sido una causa histórica del movimiento indigena."
+        dispatcher.utter_message(text=mensaje)
+        return []
+
+class ActionTraducirNasa9(Action):
+    def name(self):
+        return "action_frase_9" 
+
+    def run(self, dispatcher, tracker, domain):
+        # Obtener los valores de los slots
+        proceso_tierras = tracker.get_slot("Recuperacion_tierras_resguardo")
+        historico = tracker.get_slot("Memoria_Historico")
+        lucha_tierras = tracker.get_slot("Recuperacion_tierras_resguardo")
+        recuper = tracker.get_slot("(Dignidad_Humana")
+
+        # Aplicar la traducción
+        proceso_trad = traducir(proceso_tierras, TRADUCCIONES_NASA_9)
+        historico_trad = traducir(historico, TRADUCCIONES_NASA_9)
+        lucha_trad = traducir(lucha_tierras, TRADUCCIONES_NASA_9)
+        recup_trad = traducir(recuper, TRADUCCIONES_NASA_9)
+
+        # Formatear y enviar el mensaje con las traducciones
+        mensaje = f"El indigena se refiere a la {proceso_trad} son tambien{historico_trad}  y la {lucha_trad}  tambien es  {recup_trad}"
+        dispatcher.utter_message(text=mensaje)
+        return []
+
+class ActionTraducirNasa10(Action):
+    def name(self):
+        return "action_frase_10" 
+
+    def run(self, dispatcher, tracker, domain):
+        # Obtener los valores de los slots
+        historico = tracker.get_slot("Memoria_Historico")
+        esp = tracker.get_slot("Espiritualidad_Nasa")
+
+        # Aplicar la traducción
+        historico_trad = traducir(historico, TRADUCCIONES_NASA_10)
+        esp_trad = traducir(esp, TRADUCCIONES_NASA_10)
+
+        # Formatear y enviar el mensaje con las traducciones
+        mensaje = f"El indigena se refiere a los procesos  {historico_trad} han guiado nuestros pasos, los {esp_trad} fortalecen la resistencia frente a la violencia."
+        dispatcher.utter_message(text=mensaje)
+        return []
+
+class ActionTraducirNasa11(Action):
+    def name(self):
+        return "action_frase_11" 
+
+    def run(self, dispatcher, tracker, domain):
+        # Obtener los valores de los slots
+        defensa = tracker.get_slot("Defensa_Territorio")
+        autonomia  = tracker.get_slot("Cultura_Autonomia")
+        autoridad  = tracker.get_slot("Autoridad_Propia")
+
+        """
+        "kwe'sx uma kiwe": "Nuestro Territorio",
+        "kwe'sx fxi'zenxitxis": "Tradiciones Culturales",
+        "ukawe'sxa": "Autoridades Propias"
+        """
+        # Aplicar la traducción
+        defensa_trad = traducir(defensa, TRADUCCIONES_NASA_11)
+        autonomia_trad = traducir(autonomia, TRADUCCIONES_NASA_11)
+        autoridad_trad = traducir(autoridad, TRADUCCIONES_NASA_11)
+
+        # Formatear y enviar el mensaje con las traducciones
+        mensaje = f"El indigena se refiere cuando {defensa_trad} ha enfrentado intereses extractivos y armados, siendo las {autonomia_trad} han sido atacadas, pero no han podido vencer, y aun las {autoridad_trad} han sufrido amenazas y asesinatos"
         dispatcher.utter_message(text=mensaje)
         return []
