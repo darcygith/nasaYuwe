@@ -3,59 +3,59 @@ version: "3.1"
 rules:
   - rule: responder historia valores y principios
     steps:
-      - intent: frase_1
-      - action: action_frase_1
+      - intent: frase_1_2_3
+      - action: action_frase_1_2_3
   - rule: responder valores
     steps:
-      - intent: frase_1_2
-      - action: action_frase_1_2
+      - intent: frase_36
+      - action: action_frase_36
 
   - rule: responder al gobierno
     steps:
-      - intent: frase_2
-      - action: action_frase_2
+      - intent: frase_4_5
+      - action: action_frase_4_5
   
   - rule: responder desplazamiento
-    steps:
-      - intent: frase_3
-      - action: action_frase_3
-
-  - rule: responder resistencia unidad
-    steps:
-      - intent: frase_4
-      - action: action_frase_4
-
-  - rule: responder conflicto armado y memoria
-    steps:
-      - intent: frase_5
-      - action: action_frase_5
-
-  - rule: responder diversidad cultural y resistencia pacífica
     steps:
       - intent: frase_6
       - action: action_frase_6
 
+  - rule: responder resistencia unidad
+    steps:
+      - intent: frase_50
+      - action: action_frase_50
+
+  - rule: responder conflicto armado y memoria
+    steps:
+      - intent: frase_43_44
+      - action: action_frase_43_44
+
+  - rule: responder diversidad cultural y resistencia pacífica
+    steps:
+      - intent: frase_42_46
+      - action: action_frase_42_46
+
   - rule: responder comunidad fortalecida
     steps:
-      - intent: frase_7
-      - action: action_frase_7
+      - intent: frase_49
+      - action: action_frase_49
 
   - rule: responder recuperacion de tierras
     steps:
-      - intent: frase_8
-      - action: action_frase_8
+      - intent: frase_33_34_35
+      - action: action_frase_33_34_35
 
   - rule: responder recuperacion tierras, memoria historica, dignidad humana
     steps:
-      - intent: frase_9
-      - action: action_frase_9
+      - intent: frase_38_39
+      - action: action_frase_38_39
 
   - rule: responder espiritualidad
     steps:
-      - intent: frase_10
-      - action: action_frase_10
+      - intent: frase_41_48
+      - action: action_frase_41_48
 
   - rule: responder defensa territorio
     steps:
-      - intent: frase_11
-      - action: action_frase_11
+      - intent: frase_37_40_45
+      - action: action_frase_37_40_45

@@ -1,18 +1,18 @@
 version: "3.1"
 
 intents:
-  - frase_1
-  - frase_1_2
-  - frase_2
-  - frase_3
-  - frase_4
-  - frase_5
+  - frase_1_2_3
+  - frase_36
+  - frase_4_5
   - frase_6
-  - frase_7
-  - frase_8
-  - frase_9
-  - frase_10
-  - frase_11
+  - frase_50
+  - frase_43_44
+  - frase_42_46
+  - frase_49
+  - frase_33_34_35
+  - frase_38_39
+  - frase_41_48
+  - frase_37_40_45
 
 entities:
   - Territorio_Madre_Tierra
@@ -29,7 +29,7 @@ entities:
   - Caminos_Resistencia
 
   - Cultura_Autonomia
-  - Recuperacion_tierras_resguardo
+  - Recuperacion_Tierras_Resguardo
   - Dignidad_Humana
   - Espiritualidad_Nasa
   - Defensa_Territorio
@@ -119,12 +119,12 @@ Cultura_Autonomia:
       - type: from_entity
         entity: Cultura_Autonomia
 
-Recuperacion_tierras_resguardo:
+Recuperacion_Tierras_Resguardo:
     type: text
     influence_conversation: false
     mappings:
       - type: from_entity
-        entity: Recuperacion_tierras_resguardo
+        entity: Recuperacion_Tierras_Resguardo
 
 Dignidad_Humana:
     type: text
@@ -155,18 +155,18 @@ Autoridad_Propia:
         entity: Autoridad_Propia
 
 actions:
-  - action_frase_1
-  - action_frase_1_2
-  - action_frase_2
-  - action_frase_3
-  - action_frase_4
-  - action_frase_5
+  - action_frase_1_2_3
+  - action_frase_36
+  - action_frase_4_5
   - action_frase_6
-  - action_frase_7
-  - action_frase_8
-  - action_frase_9
-  - action_frase_10
-  - action_frase_11
+  - action_frase_50
+  - action_frase_43_44
+  - action_frase_42_46
+  - action_frase_49
+  - action_frase_33_34_35
+  - action_frase_38_39
+  - action_frase_41_48
+  - action_frase_37_40_45
 
 
 session_config:

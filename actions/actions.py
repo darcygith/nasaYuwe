@@ -9,7 +9,7 @@ TRADUCCIONES_NASA = {
 }
 TRADUCCIONES_NASA_1_2 = {
     "Kwe'sx uma kiwe meewãça": "Sin la Madre Tierra",
-    "kihwã nasa fxi'zenxi menxuna": "no hay tradiciones culturales",
+    "nasawe'sx fxi'zeçxa çxhãçxha ûsnxi": "no hay tradiciones culturales",
 }
 
 TRADUCCIONES_NASA_2 = {
@@ -57,12 +57,12 @@ TRADUCCIONES_NASA_9 = {
 
 TRADUCCIONES_NASA_10 = {
     "txanteywe'sxa": "ancestrales memoriales",
-    "ksxa'w we'sxa": "Seres Espirituales"
+    "Ksxa'w we'sxyak neesnxi": "Seres Espirituales"
 }
 
 TRADUCCIONES_NASA_11 = {
     "kwe'sx uma kiwe": "Nuestro Territorio",
-    "kwe'sx fxi'zenxitxis": "Tradiciones Culturales",
+    "nasawe'sx fxi'zeçxa çxhãçxha ûsnxi": "Tradiciones Culturales",
     "ukawe'sxa": "Autoridades Propias"
 }
 # #limpiar comillas
@@ -78,7 +78,7 @@ def traducir(slot_value, traducciones):
 
 class ActionTraducirNasa(Action):
     def name(self):
-        return "action_frase_1"  
+        return "action_frase_123"  
 
     def run(self, dispatcher, tracker, domain):
         # Obtener los valores de los slots
@@ -99,28 +99,28 @@ class ActionTraducirNasa(Action):
         dispatcher.utter_message(text=mensaje)
         return []
 
-class ActionTraducirNasa(Action):
-    def name(self):
-        return "action_frase_1_2"  
+# class ActionTraducirNasa(Action):
+#     def name(self):
+#         return "action_frase_1_2"  
 
-    def run(self, dispatcher, tracker, domain):
-        # Obtener los valores de los slots
-        ter = tracker.get_slot("Territorio_Madre_Tierra")
-        autonomia = tracker.get_slot("Cultura_Autonomia")
+#     def run(self, dispatcher, tracker, domain):
+#         # Obtener los valores de los slots
+#         ter = tracker.get_slot("Territorio_Madre_Tierra")
+#         autonomia = tracker.get_slot("Cultura_Autonomia")
 
-        # Aplicar la traducción
-        ter_trad = traducir(ter, TRADUCCIONES_NASA_1_2)
-        autonomia_trad = traducir(autonomia, TRADUCCIONES_NASA_1_2)
+#         # Aplicar la traducción
+#         ter_trad = traducir(ter, TRADUCCIONES_NASA_1_2)
+#         autonomia_trad = traducir(autonomia, TRADUCCIONES_NASA_1_2)
 
-        # Formatear y enviar el mensaje con las traducciones
-        mensaje = f" El indígena se refiere que  {ter_trad}, la {autonomia_trad}  ni posibilidad para los pueblos indígenas"
+#         # Formatear y enviar el mensaje con las traducciones
+#         mensaje = f" El indígena se refiere que  {ter_trad}, la {autonomia_trad}  ni posibilidad para los pueblos indígenas"
         
-        dispatcher.utter_message(text=mensaje)
-        return []
+#         dispatcher.utter_message(text=mensaje)
+#         return []
     
 class ActionTraducirNasa2(Action):
     def name(self):
-        return "action_frase_2" 
+        return "action_frase_45" 
 
     def run(self, dispatcher, tracker, domain):
         # Obtener los valores de los slots
@@ -141,7 +141,7 @@ class ActionTraducirNasa2(Action):
 
 class ActionTraducirNasa3(Action):
     def name(self):
-        return "action_frase_3" 
+        return "action_frase_6" 
 
     def run(self, dispatcher, tracker, domain):
         # Obtener los valores de los slots
@@ -158,7 +158,7 @@ class ActionTraducirNasa3(Action):
 
 class ActionTraducirNasa4(Action):
     def name(self):
-        return "action_frase_4" 
+        return "action_frase_50" 
 
     def run(self, dispatcher, tracker, domain):
         # Obtener los valores de los slots
@@ -174,7 +174,7 @@ class ActionTraducirNasa4(Action):
 
 class ActionTraducirNasa5(Action):
     def name(self):
-        return "action_frase_5" 
+        return "action_frase_43_45" 
 
     def run(self, dispatcher, tracker, domain):
         # Obtener los valores de los slots
@@ -192,7 +192,7 @@ class ActionTraducirNasa5(Action):
 
 class ActionTraducirNasa6(Action):
     def name(self):
-        return "action_frase_6" 
+        return "action_frase_42_46" 
 
     def run(self, dispatcher, tracker, domain):
         # Obtener los valores de los slots
@@ -210,7 +210,7 @@ class ActionTraducirNasa6(Action):
     
 class ActionTraducirNasa7(Action):
     def name(self):
-        return "action_frase_7" 
+        return "action_frase_49" 
 
     def run(self, dispatcher, tracker, domain):
         # Obtener los valores de los slots
@@ -228,13 +228,13 @@ class ActionTraducirNasa7(Action):
 
 class ActionTraducirNasa8(Action):
     def name(self):
-        return "action_frase_8" 
+        return "action_frase_33_34_35" 
 
     def run(self, dispatcher, tracker, domain):
         # Obtener los valores de los slots
-        lucha_tierras = tracker.get_slot("Recuperacion_tierras_resguardo")
-        libertad_tierras = tracker.get_slot("Recuperacion_tierras_resguardo")
-        recuper_tierras = tracker.get_slot("Recuperacion_tierras_resguardo")
+        lucha_tierras = tracker.get_slot("Recuperacion_Tierras_Resguardo")
+        libertad_tierras = tracker.get_slot("Recuperacion_Tierras_Resguardo")
+        recuper_tierras = tracker.get_slot("Recuperacion_Tierras_Resguardo")
 
         # Aplicar la traducción
         lucha_trad = traducir(lucha_tierras, TRADUCCIONES_NASA_8)
@@ -248,13 +248,13 @@ class ActionTraducirNasa8(Action):
 
 class ActionTraducirNasa9(Action):
     def name(self):
-        return "action_frase_9" 
+        return "action_frase_38_39" 
 
     def run(self, dispatcher, tracker, domain):
         # Obtener los valores de los slots
-        proceso_tierras = tracker.get_slot("Recuperacion_tierras_resguardo")
+        proceso_tierras = tracker.get_slot("Recuperacion_Tierras_Resguardo")
         historico = tracker.get_slot("Memoria_Historico")
-        lucha_tierras = tracker.get_slot("Recuperacion_tierras_resguardo")
+        lucha_tierras = tracker.get_slot("Recuperacion_Tierras_Resguardo")
         recuper = tracker.get_slot("(Dignidad_Humana")
 
         # Aplicar la traducción
@@ -270,7 +270,7 @@ class ActionTraducirNasa9(Action):
 
 class ActionTraducirNasa10(Action):
     def name(self):
-        return "action_frase_10" 
+        return "action_frase_41_48" 
 
     def run(self, dispatcher, tracker, domain):
         # Obtener los valores de los slots
@@ -288,7 +288,7 @@ class ActionTraducirNasa10(Action):
 
 class ActionTraducirNasa11(Action):
     def name(self):
-        return "action_frase_11" 
+        return "action_frase_37_40_45" 
 
     def run(self, dispatcher, tracker, domain):
         # Obtener los valores de los slots
