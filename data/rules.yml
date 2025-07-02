@@ -7,8 +7,8 @@ rules:
       - action: action_frase_1_2_3
   - rule: responder valores
     steps:
-      - intent: frase_36
-      - action: action_frase_36
+      - intent: frase_36_31
+      - action: action_frase_36_31
 
   - rule: responder al gobierno
     steps:
@@ -52,10 +52,19 @@ rules:
 
   - rule: responder espiritualidad
     steps:
-      - intent: frase_41_48
-      - action: action_frase_41_48
+      - intent: frase_41_48_30
+      - action: action_frase_41_48_30
 
   - rule: responder defensa territorio
     steps:
       - intent: frase_37_40_45
       - action: action_frase_37_40_45
+      
+  - rule: responder Convivencia
+    steps: 
+      - inten: frase_47
+      - action: action_frase_47
+  - rule: responder cabildo 
+    steps: 
+      - intent: frase_32
+      - action: action_frase_32

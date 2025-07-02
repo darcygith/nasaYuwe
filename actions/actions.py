@@ -65,6 +65,14 @@ TRADUCCIONES_NASA_11 = {
     "nasawe'sx fxi'zeçxa çxhãçxha ûsnxi": "Tradiciones Culturales",
     "ukawe'sxa": "Autoridades Propias"
 }
+
+TRADUCCIONES_NASA_12 = {
+    "kwe'sx fxi'zenxis kçxhaçxhan": "fortalecimiento de los procesos propios",
+    "fxi'zenxis uywaja": "armonía"
+}
+TRADUCCIONES_NASA_13 = {
+    "nasa wala pkhakheçxa ûs yahkxnxisa": "fortalecer nuestros cabildos y creando espacios de diálogo"
+}
 # #limpiar comillas
 # def clean_Comillas(frase):
 #     return frase.replace("’","'")
@@ -99,24 +107,24 @@ class ActionTraducirNasa(Action):
         dispatcher.utter_message(text=mensaje)
         return []
 
-# class ActionTraducirNasa(Action):
-#     def name(self):
-#         return "action_frase_1_2"  
+class ActionTraducirNasa(Action):
+    def name(self):
+        return "action_frase_36_31"  
 
-#     def run(self, dispatcher, tracker, domain):
-#         # Obtener los valores de los slots
-#         ter = tracker.get_slot("Territorio_Madre_Tierra")
-#         autonomia = tracker.get_slot("Cultura_Autonomia")
+    def run(self, dispatcher, tracker, domain):
+        # Obtener los valores de los slots
+        ter = tracker.get_slot("Territorio_Madre_Tierra")
+        autonomia = tracker.get_slot("Cultura_Autonomia")
 
-#         # Aplicar la traducción
-#         ter_trad = traducir(ter, TRADUCCIONES_NASA_1_2)
-#         autonomia_trad = traducir(autonomia, TRADUCCIONES_NASA_1_2)
+        # Aplicar la traducción
+        ter_trad = traducir(ter, TRADUCCIONES_NASA_1_2)
+        autonomia_trad = traducir(autonomia, TRADUCCIONES_NASA_1_2)
 
-#         # Formatear y enviar el mensaje con las traducciones
-#         mensaje = f" El indígena se refiere que  {ter_trad}, la {autonomia_trad}  ni posibilidad para los pueblos indígenas"
+        # Formatear y enviar el mensaje con las traducciones
+        mensaje = f" El indígena se refiere que  {ter_trad}, la {autonomia_trad}  ni posibilidad para los pueblos indígenas"
         
-#         dispatcher.utter_message(text=mensaje)
-#         return []
+        dispatcher.utter_message(text=mensaje)
+        return []
     
 class ActionTraducirNasa2(Action):
     def name(self):
@@ -295,12 +303,6 @@ class ActionTraducirNasa11(Action):
         defensa = tracker.get_slot("Defensa_Territorio")
         autonomia  = tracker.get_slot("Cultura_Autonomia")
         autoridad  = tracker.get_slot("Autoridad_Propia")
-
-        """
-        "kwe'sx uma kiwe": "Nuestro Territorio",
-        "kwe'sx fxi'zenxitxis": "Tradiciones Culturales",
-        "ukawe'sxa": "Autoridades Propias"
-        """
         # Aplicar la traducción
         defensa_trad = traducir(defensa, TRADUCCIONES_NASA_11)
         autonomia_trad = traducir(autonomia, TRADUCCIONES_NASA_11)
@@ -308,5 +310,43 @@ class ActionTraducirNasa11(Action):
 
         # Formatear y enviar el mensaje con las traducciones
         mensaje = f"El indigena se refiere cuando {defensa_trad} ha enfrentado intereses extractivos y armados, siendo las {autonomia_trad} han sido atacadas, pero no han podido vencer, y aun las {autoridad_trad} han sufrido amenazas y asesinatos"
+        dispatcher.utter_message(text=mensaje)
+        return []
+
+class ActionTraducirNasa12(Action):
+    def name(self):
+        return "action_frase_47" 
+
+    def run(self, dispatcher, tracker, domain):
+        # Obtener los valores de los slots
+        fortalecimiento = tracker.get_slot("Gobierno_Propio")
+        armonia  = tracker.get_slot("Convivencia_Armonica")
+
+        """
+        "kwe'sx fxi'zenxis kçxhaçxhan": "fortalecimiento de los procesos propios",
+        "fxi'zenxis uywaja": "armonía"
+        """
+        # Aplicar la traducción
+        fort_trad = traducir(fortalecimiento, TRADUCCIONES_NASA_12)
+        arm_trad = traducir(armonia, TRADUCCIONES_NASA_12)
+
+        # Formatear y enviar el mensaje con las traducciones
+        mensaje = f"El indigena se refiere al {fort_trad}  es el camino a la paz en {arm_trad}"
+        dispatcher.utter_message(text=mensaje)
+        return []
+    
+
+class ActionTraducirNasa13(Action):
+    def name(self):
+        return "action_frase_32" 
+
+    def run(self, dispatcher, tracker, domain):
+        # Obtener los valores de los slots
+        cbildo = tracker.get_slot("Cabildo_Abierto")
+        # Aplicar la traducción
+        cbildo_trad = traducir(cbildo, TRADUCCIONES_NASA_13)
+
+        # Formatear y enviar el mensaje con las traducciones
+        mensaje = f"El indigena se refiere al La lucha política pacífica para {cbildo_trad} como expresión de resistencia y unidad."
         dispatcher.utter_message(text=mensaje)
         return []

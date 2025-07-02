@@ -2,7 +2,7 @@ version: "3.1"
 
 intents:
   - frase_1_2_3
-  - frase_36
+  - frase_36_31
   - frase_4_5
   - frase_6
   - frase_50
@@ -11,8 +11,10 @@ intents:
   - frase_49
   - frase_33_34_35
   - frase_38_39
-  - frase_41_48
+  - frase_41_48_30
   - frase_37_40_45
+  - frase_47
+  - frase_32
 
 entities:
   - Territorio_Madre_Tierra
@@ -34,6 +36,12 @@ entities:
   - Espiritualidad_Nasa
   - Defensa_Territorio
   - Autoridad_Propia
+
+  - Gobierno_Propio
+  - Convivencia_Armonica
+
+  - Cabildo_Abierto
+  - Memoria_Histórica
 
 slots:
   Territorio_Madre_Tierra:
@@ -112,51 +120,79 @@ slots:
         entity: Caminos_Resistencia
 
 
-Cultura_Autonomia:
-    type: text
-    influence_conversation: false
-    mappings:
-      - type: from_entity
-        entity: Cultura_Autonomia
+  Cultura_Autonomia:
+      type: text
+      influence_conversation: false
+      mappings:
+        - type: from_entity
+          entity: Cultura_Autonomia
 
-Recuperacion_Tierras_Resguardo:
-    type: text
-    influence_conversation: false
-    mappings:
-      - type: from_entity
-        entity: Recuperacion_Tierras_Resguardo
+  Recuperacion_Tierras_Resguardo:
+      type: text
+      influence_conversation: false
+      mappings:
+        - type: from_entity
+          entity: Recuperacion_Tierras_Resguardo
 
-Dignidad_Humana:
-    type: text
-    influence_conversation: false
-    mappings:
-      - type: from_entity
-        entity: Dignidad_Humana
+  Dignidad_Humana:
+      type: text
+      influence_conversation: false
+      mappings:
+        - type: from_entity
+          entity: Dignidad_Humana
 
-Espiritualidad_Nasa:
-    type: text
-    influence_conversation: false
-    mappings:
-      - type: from_entity
-        entity: Espiritualidad_Nasa
+  Espiritualidad_Nasa:
+      type: text
+      influence_conversation: false
+      mappings:
+        - type: from_entity
+          entity: Espiritualidad_Nasa
 
-Defensa_Territorio:
-    type: text
-    influence_conversation: false
-    mappings:
-      - type: from_entity
-        entity: Defensa_Territorio
+  Defensa_Territorio:
+      type: text
+      influence_conversation: false
+      mappings:
+        - type: from_entity
+          entity: Defensa_Territorio
 
-Autoridad_Propia:
+  Autoridad_Propia:
+      type: text
+      influence_conversation: false
+      mappings:
+        - type: from_entity
+          entity: Autoridad_Propia
+
+  Gobierno_Propio:
     type: text
     influence_conversation: false
     mappings:
       - type: from_entity
-        entity: Autoridad_Propia
+        entity: Gobierno_Propio
+  
+  Convivencia_Armonica:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_entity
+        entity: Convivencia_Armonica
+
+  Cabildo_Abierto:     
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_entity
+        entity: Cabildo_Abierto
+  
+  Memoria_Histórica:
+  type: text
+  influence_conversation: false
+  mappings:
+    - type: from_entity
+      entity: Memoria_Histórica
 
 actions:
   - action_frase_1_2_3
-  - action_frase_36
+  - action_frase_36_31
   - action_frase_4_5
   - action_frase_6
   - action_frase_50
@@ -165,8 +201,10 @@ actions:
   - action_frase_49
   - action_frase_33_34_35
   - action_frase_38_39
-  - action_frase_41_48
+  - action_frase_41_48_30
   - action_frase_37_40_45
+  - action_frase_47
+  - action_frase_32
 
 
 session_config:
