@@ -125,9 +125,9 @@ nlu:
     - [txanteywe'sxa](Memoria_Historica) dxi'ja' maaju'j txã dxi'te
     - xi'ja' maaju'j txã dxi'te u'jwa [txanteywe'sxa](Memoria_Historica)
     - ûswaja's pu'çxii'kwe ptxunûstewa [txanteywe'sxa](Memoria_Historica)
-    - [yeçka thê’sa dxi’j kikxnxitx](Memoria_Histórica)  jiyun u’jnxi] txã’w jiyuçxa kwe’sxwa atpuçxna  u’jwena’w ew fxi’zewaja’s pakwen
-    - [yeçka thê’sa dxi’j kikxnxitx](Memoria_Histórica)  jiyun u’jnxi] txã’w jiyuçxa kwe’sxwa [txanteywe'sxa](Memoria_Historica) dxi'ja' maaju'j txã dxi'te u'jwa [ksxa'w we'sxyak neesnxi](Espiritualidad_Nasa) ' ,çxhaçxha' ûswaja's pu'çxii'kwe ptxunûstewa
-    - [yeçka thê’sa dxi’j kikxnxitx](Memoria_Histórica) atpuçxna  u’jwena’w ew fxi’zewaja’s pakwen maaju'j txã dxi'te u'jwa [ksxa'w we'sxyak neesnxi](Espiritualidad_Nasa) ' çxhaçxha' ûswaja's pu'çxii'kwe ptxunûstewa
+    - [yeçka thê’sa dxi’j kikxnxitx](Memoria_Historica)  jiyun u’jnxi] txã’w jiyuçxa kwe’sxwa atpuçxna  u’jwena’w ew fxi’zewaja’s pakwen
+    - [yeçka thê’sa dxi’j kikxnxitx](Memoria_Historica)  jiyun u’jnxi] txã’w jiyuçxa kwe’sxwa [txanteywe'sxa](Memoria_Historica) dxi'ja' maaju'j txã dxi'te u'jwa [ksxa'w we'sxyak neesnxi](Espiritualidad_Nasa) ' ,çxhaçxha' ûswaja's pu'çxii'kwe ptxunûstewa
+    - [yeçka thê’sa dxi’j kikxnxitx](Memoria_Historica) atpuçxna  u’jwena’w ew fxi’zewaja’s pakwen maaju'j txã dxi'te u'jwa [ksxa'w we'sxyak neesnxi](Espiritualidad_Nasa) ' çxhaçxha' ûswaja's pu'çxii'kwe ptxunûstewa
 
 - intent: frase_37_40_45
   examples: |
@@ -143,7 +143,7 @@ nlu:
     - [ukawe'sxa](Autoridad_Propia) ' meh ptxunx Yun ûsta
 
 - intent: frase_47  
-  example: |
+  examples: |
     - [kwe'sx fxi'zenxis kçxhaçxhan](Gobierno_Propio) txã dxi’jyuuna wãt [fxi'zenxis uywaja](Convivencia_Armonica) '
     - [kwe'sx fxi'zenxis kçxhaçxhan](Gobierno_Propio) txã dxi’jyuuna
     - [fxi'zenxis uywaja](Convivencia_Armonica) '
@@ -151,7 +151,7 @@ nlu:
     - [kwe'sx fxi'zenxis kçxhaçxhan](Gobierno_Propio) txã dxi’jyuuna
 
 - intent: frase_32  
-  example: |
+  examples: |
     - kçxhaçxhan ûs yahkxçxa thwêjin u’jçxa kwe’sx [nasa wala pkhakheçxa ûs yahkxnxisa](Cabildo_Abierto) ukawe’sxtxis u’jwena’w kihçxa dxi’j pakwena’w çxhãçxçxhãçxha ksxabuçxa puutxwe’wna ûsuna’w. 
     - kçxhaçxhan u’jçxa kwe’sx [nasa wala pkhakheçxa ûs yahkxnxisa](Cabildo_Abierto) ukawe’sxtxis u’jwena’w kihçxa dxi’j pakwena’w 
     - kwe’sx [nasa wala pkhakheçxa ûs yahkxnxisa](Cabildo_Abierto) pakwena’w çxhãçxçxhãçxha ksxabuçxa puutxwe’wna ûsuna’w. 

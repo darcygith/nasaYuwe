@@ -41,7 +41,6 @@ entities:
   - Convivencia_Armonica
 
   - Cabildo_Abierto
-  - Memoria_Histórica
 
 slots:
   Territorio_Madre_Tierra:
@@ -183,13 +182,6 @@ slots:
       - type: from_entity
         entity: Cabildo_Abierto
   
-  Memoria_Histórica:
-  type: text
-  influence_conversation: false
-  mappings:
-    - type: from_entity
-      entity: Memoria_Histórica
-
 actions:
   - action_frase_1_2_3
   - action_frase_36_31

@@ -57,7 +57,8 @@ TRADUCCIONES_NASA_9 = {
 
 TRADUCCIONES_NASA_10 = {
     "txanteywe'sxa": "ancestrales memoriales",
-    "Ksxa'w we'sxyak neesnxi": "Seres Espirituales"
+    "Ksxa'w we'sxyak neesnxi": "Seres Espirituales",
+    "yeçka thê’sa dxi’j kikxnxitx": "comprender losprocesos ancestrales"
 }
 
 TRADUCCIONES_NASA_11 = {
@@ -278,19 +279,20 @@ class ActionTraducirNasa9(Action):
 
 class ActionTraducirNasa10(Action):
     def name(self):
-        return "action_frase_41_48" 
+        return "action_frase_41_48_30" 
 
     def run(self, dispatcher, tracker, domain):
         # Obtener los valores de los slots
         historico = tracker.get_slot("Memoria_Historico")
         esp = tracker.get_slot("Espiritualidad_Nasa")
+        his_ = tracker.get_slot("Memoria_Histórica")
 
         # Aplicar la traducción
         historico_trad = traducir(historico, TRADUCCIONES_NASA_10)
         esp_trad = traducir(esp, TRADUCCIONES_NASA_10)
-
+        his_trad = traducir(his_, TRADUCCIONES_NASA_10)
         # Formatear y enviar el mensaje con las traducciones
-        mensaje = f"El indigena se refiere a los procesos  {historico_trad} han guiado nuestros pasos, los {esp_trad} fortalecen la resistencia frente a la violencia."
+        mensaje = f"El indigena se refiere a {his_trad}  {historico_trad} han guiado nuestros pasos, los {esp_trad} fortalecen la resistencia frente a la violencia"
         dispatcher.utter_message(text=mensaje)
         return []
 

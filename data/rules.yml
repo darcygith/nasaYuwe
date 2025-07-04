@@ -62,7 +62,7 @@ rules:
       
   - rule: responder Convivencia
     steps: 
-      - inten: frase_47
+      - intent: frase_47
       - action: action_frase_47
   - rule: responder cabildo 
     steps: 
