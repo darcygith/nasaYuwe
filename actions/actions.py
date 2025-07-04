@@ -87,7 +87,7 @@ def traducir(slot_value, traducciones):
 
 class ActionTraducirNasa(Action):
     def name(self):
-        return "action_frase_123"  
+        return "action_frase_1_2_3"  
 
     def run(self, dispatcher, tracker, domain):
         # Obtener los valores de los slots
@@ -108,7 +108,7 @@ class ActionTraducirNasa(Action):
         dispatcher.utter_message(text=mensaje)
         return []
 
-class ActionTraducirNasa(Action):
+class ActionTraducirNasa1(Action):
     def name(self):
         return "action_frase_36_31"  
 
@@ -129,7 +129,7 @@ class ActionTraducirNasa(Action):
     
 class ActionTraducirNasa2(Action):
     def name(self):
-        return "action_frase_45" 
+        return "action_frase_4_5" 
 
     def run(self, dispatcher, tracker, domain):
         # Obtener los valores de los slots
