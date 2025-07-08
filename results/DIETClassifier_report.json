@@ -1,102 +1,9 @@
 {
-  "Conflicto_Armado": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 12,
-    "confused_with": {}
-  },
-  "Caminos_Resistencia": {
-    "precision": 1.0,
-    "recall": 0.6666666666666666,
-    "f1-score": 0.8,
-    "support": 6,
-    "confused_with": {
-      "Resistencia_Pacifica": 2
-    }
-  },
-  "Convivencia_Armonica": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 6,
-    "confused_with": {}
-  },
-  "Recuperacion_Tierras_Resguardo": {
-    "precision": 0.9624060150375939,
-    "recall": 1.0,
-    "f1-score": 0.9808429118773946,
-    "support": 128,
-    "confused_with": {}
-  },
-  "Autonomia_Territorial": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 18,
-    "confused_with": {}
-  },
-  "Gobierno_Propio": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 10,
-    "confused_with": {}
-  },
   "Memoria_Historica": {
-    "precision": 0.9875,
+    "precision": 0.9634146341463414,
     "recall": 1.0,
-    "f1-score": 0.9937106918238994,
+    "f1-score": 0.9813664596273292,
     "support": 79,
-    "confused_with": {}
-  },
-  "Cabildo_Abierto": {
-    "precision": 0.9615384615384616,
-    "recall": 1.0,
-    "f1-score": 0.9803921568627451,
-    "support": 25,
-    "confused_with": {}
-  },
-  "Desplazamiento": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 25,
-    "confused_with": {}
-  },
-  "Defensa_Territorio": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 16,
-    "confused_with": {}
-  },
-  "Espiritualidad_Nasa": {
-    "precision": 0.967741935483871,
-    "recall": 1.0,
-    "f1-score": 0.9836065573770492,
-    "support": 30,
-    "confused_with": {}
-  },
-  "Cultura_Autonomia": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 42,
-    "confused_with": {}
-  },
-  "Territorio_Madre_Tierra": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 50,
-    "confused_with": {}
-  },
-  "Dignidad_humana": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 12,
     "confused_with": {}
   },
   "Autoridad_Propia": {
@@ -106,10 +13,73 @@
     "support": 8,
     "confused_with": {}
   },
-  "Participacion_Comunitaria": {
-    "precision": 0.6363636363636364,
+  "Territorio_Madre_Tierra": {
+    "precision": 1.0,
     "recall": 1.0,
-    "f1-score": 0.7777777777777778,
+    "f1-score": 1.0,
+    "support": 50,
+    "confused_with": {}
+  },
+  "Derecho_Territorial": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 28,
+    "confused_with": {}
+  },
+  "Gobierno_Propio": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 10,
+    "confused_with": {}
+  },
+  "Convivencia_Armonica": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 6,
+    "confused_with": {}
+  },
+  "Desplazamiento": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 25,
+    "confused_with": {}
+  },
+  "Resistencia_Unidad": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 27,
+    "confused_with": {}
+  },
+  "Recuperacion_Tierras_Resguardo": {
+    "precision": 0.9481481481481482,
+    "recall": 1.0,
+    "f1-score": 0.973384030418251,
+    "support": 128,
+    "confused_with": {}
+  },
+  "Conflicto_Armado": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 12,
+    "confused_with": {}
+  },
+  "Cabildo_Abierto": {
+    "precision": 0.9615384615384616,
+    "recall": 1.0,
+    "f1-score": 0.9803921568627451,
+    "support": 25,
+    "confused_with": {}
+  },
+  "Participacion_Comunitaria": {
+    "precision": 0.76,
+    "recall": 0.9047619047619048,
+    "f1-score": 0.8260869565217391,
     "support": 21,
     "confused_with": {}
   },
@@ -120,27 +90,6 @@
     "support": 9,
     "confused_with": {}
   },
-  "Resistencia_Unidad": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 27,
-    "confused_with": {}
-  },
-  "Derecho_Territorial": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 28,
-    "confused_with": {}
-  },
-  "Resistencia_Pacifica": {
-    "precision": 0.9333333333333333,
-    "recall": 1.0,
-    "f1-score": 0.9655172413793104,
-    "support": 28,
-    "confused_with": {}
-  },
   "Diversidad_Etnica_Cultural": {
     "precision": 0.9090909090909091,
     "recall": 1.0,
@@ -148,30 +97,74 @@
     "support": 30,
     "confused_with": {}
   },
+  "Espiritualidad_Nasa": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 30,
+    "confused_with": {}
+  },
+  "Caminos_Resistencia": {
+    "precision": 1.0,
+    "recall": 0.8333333333333334,
+    "f1-score": 0.9090909090909091,
+    "support": 6,
+    "confused_with": {
+      "Resistencia_Pacifica": 1
+    }
+  },
+  "Defensa_Territorio": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 16,
+    "confused_with": {}
+  },
+  "Resistencia_Pacifica": {
+    "precision": 0.9655172413793104,
+    "recall": 1.0,
+    "f1-score": 0.9824561403508771,
+    "support": 28,
+    "confused_with": {}
+  },
+  "Autonomia_Territorial": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 18,
+    "confused_with": {}
+  },
   "Dignidad_Humana": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 12,
+    "support": 24,
+    "confused_with": {}
+  },
+  "Cultura_Autonomia": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 42,
     "confused_with": {}
   },
   "micro avg": {
-    "precision": 0.9612403100775194,
-    "recall": 0.9967845659163987,
-    "f1-score": 0.978689818468824,
+    "precision": 0.9671875,
+    "recall": 0.9951768488745981,
+    "f1-score": 0.9809825673534073,
     "support": 622
   },
   "macro avg": {
-    "precision": 0.9708170132203549,
-    "recall": 0.9848484848484848,
-    "f1-score": 0.974283104067233,
+    "precision": 0.9765575902049128,
+    "recall": 0.987528344671202,
+    "f1-score": 0.9811979812025144,
     "support": 622
   },
   "weighted avg": {
-    "precision": 0.967911393082776,
-    "recall": 0.9967845659163987,
-    "f1-score": 0.9803991682968767,
+    "precision": 0.9690970910455522,
+    "recall": 0.9951768488745981,
+    "f1-score": 0.98153292953122,
     "support": 622
   },
-  "accuracy": 0.9826388888888888
+  "accuracy": 0.9840277777777777
 }

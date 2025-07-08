@@ -1,118 +1,5 @@
 [
   {
-    "text": "eka nasawe'sxa paapeî' ji'pta' nasa we'sx, kwe'sx nasatxis naa u'pta çxhab walasu kaanxi txãwe'sx eçfxi'nxi ûsteyu' tegunxa ãn kwe'sx uma kiwes subwasametewa",
-    "entities": [
-      {
-        "start": 0,
-        "end": 14,
-        "value": "eka nasawe'sxa",
-        "entity": "Estados"
-      },
-      {
-        "start": 31,
-        "end": 41,
-        "value": "nasa we'sx",
-        "entity": "Participacion_Comunitaria"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "Estados",
-        "start": 0,
-        "end": 14,
-        "confidence_entity": 0.879509449005127,
-        "value": "eka nasawe'sxa",
-        "extractor": "DIETClassifier",
-        "processors": [
-          "EntitySynonymMapper"
-        ]
-      },
-      {
-        "entity": "Participacion_Comunitaria",
-        "start": 31,
-        "end": 41,
-        "confidence_entity": 0.914823055267334,
-        "value": "nasa we'sx",
-        "extractor": "DIETClassifier",
-        "processors": [
-          "EntitySynonymMapper"
-        ]
-      },
-      {
-        "entity": "Participacion_Comunitaria",
-        "start": 47,
-        "end": 49,
-        "confidence_entity": 0.7983008623123169,
-        "value": "sx",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "nasa we'sx kwe'sx nasatxis naa u'pta çxhab walasu kaanxi txãwe'sx eçfxi'nxi ûsteyu' tegunxa ãn kwe'sx uma kiwes subwasametewa",
-    "entities": [
-      {
-        "start": 0,
-        "end": 10,
-        "value": "nasa we'sx",
-        "entity": "Participacion_Comunitaria"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "Participacion_Comunitaria",
-        "start": 0,
-        "end": 10,
-        "confidence_entity": 0.9553027749061584,
-        "value": "nasa we'sx",
-        "extractor": "DIETClassifier",
-        "processors": [
-          "EntitySynonymMapper"
-        ]
-      },
-      {
-        "entity": "Participacion_Comunitaria",
-        "start": 15,
-        "end": 17,
-        "confidence_entity": 0.7960770130157471,
-        "value": "sx",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "eka nasawe'sxa paapeî' ji'pta' kwe'sx nasatxis naa u'pta çxhab walasu kaanxi txãwe'sx eçfxi'nxi ûsteyu' tegunxa ãn kwe'sx uma kiwes subwasametewa",
-    "entities": [
-      {
-        "start": 0,
-        "end": 14,
-        "value": "eka nasawe'sxa",
-        "entity": "Estados"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "Estados",
-        "start": 0,
-        "end": 14,
-        "confidence_entity": 0.8885720372200012,
-        "value": "eka nasawe'sxa",
-        "extractor": "DIETClassifier",
-        "processors": [
-          "EntitySynonymMapper"
-        ]
-      },
-      {
-        "entity": "Participacion_Comunitaria",
-        "start": 35,
-        "end": 37,
-        "confidence_entity": 0.7837444543838501,
-        "value": "sx",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
     "text": "kwe'sx una nasa we'sx kwe'sx nasatxis naa u'pta çxhab walasu kaanxi",
     "entities": [
       {
@@ -127,59 +14,16 @@
         "entity": "Participacion_Comunitaria",
         "start": 4,
         "end": 6,
-        "confidence_entity": 0.8459764719009399,
+        "confidence_entity": 0.6865105032920837,
         "value": "sx",
         "extractor": "DIETClassifier"
       },
       {
         "entity": "Participacion_Comunitaria",
         "start": 11,
-        "end": 21,
-        "confidence_entity": 0.7961095571517944,
-        "value": "nasa we'sx",
-        "extractor": "DIETClassifier",
-        "processors": [
-          "EntitySynonymMapper"
-        ]
-      },
-      {
-        "entity": "Participacion_Comunitaria",
-        "start": 26,
-        "end": 28,
-        "confidence_entity": 0.6751155853271484,
-        "value": "sx",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "nasa we'sx, ûsteyu' tegunxa ãn kwe'sx uma kiwes subwasametewa",
-    "entities": [
-      {
-        "start": 0,
-        "end": 10,
-        "value": "nasa we'sx",
-        "entity": "Participacion_Comunitaria"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "Participacion_Comunitaria",
-        "start": 0,
-        "end": 10,
-        "confidence_entity": 0.9644169807434082,
-        "value": "nasa we'sx",
-        "extractor": "DIETClassifier",
-        "processors": [
-          "EntitySynonymMapper"
-        ]
-      },
-      {
-        "entity": "Participacion_Comunitaria",
-        "start": 35,
-        "end": 37,
-        "confidence_entity": 0.7731647491455078,
-        "value": "sx",
+        "end": 18,
+        "confidence_entity": 0.939910352230072,
+        "value": "nasa we",
         "extractor": "DIETClassifier"
       }
     ]
@@ -205,26 +49,23 @@
         "entity": "Participacion_Comunitaria",
         "start": 15,
         "end": 17,
-        "confidence_entity": 0.7917523384094238,
+        "confidence_entity": 0.7228497266769409,
         "value": "sx",
         "extractor": "DIETClassifier"
       },
       {
         "entity": "Participacion_Comunitaria",
         "start": 42,
-        "end": 52,
-        "confidence_entity": 0.6609342098236084,
-        "value": "nasa we'sx",
-        "extractor": "DIETClassifier",
-        "processors": [
-          "EntitySynonymMapper"
-        ]
+        "end": 49,
+        "confidence_entity": 0.8774795532226562,
+        "value": "nasa we",
+        "extractor": "DIETClassifier"
       },
       {
         "entity": "Derecho_Territorial",
         "start": 87,
         "end": 133,
-        "confidence_entity": 0.9948648810386658,
+        "confidence_entity": 0.9879785776138306,
         "value": "thêsa kiwe yuwe puiinxitxis eskhe vxitna yuhta",
         "extractor": "DIETClassifier",
         "processors": [
@@ -235,7 +76,7 @@
         "entity": "Participacion_Comunitaria",
         "start": 134,
         "end": 141,
-        "confidence_entity": 0.5731887221336365,
+        "confidence_entity": 0.5999559164047241,
         "value": "nasa we",
         "extractor": "DIETClassifier"
       }
@@ -262,7 +103,7 @@
         "entity": "Participacion_Comunitaria",
         "start": 0,
         "end": 10,
-        "confidence_entity": 0.9369762539863586,
+        "confidence_entity": 0.770871639251709,
         "value": "nasa we'sx",
         "extractor": "DIETClassifier",
         "processors": [
@@ -270,18 +111,10 @@
         ]
       },
       {
-        "entity": "Participacion_Comunitaria",
-        "start": 16,
-        "end": 18,
-        "confidence_entity": 0.6298296451568604,
-        "value": "sx",
-        "extractor": "DIETClassifier"
-      },
-      {
         "entity": "Derecho_Territorial",
         "start": 127,
         "end": 173,
-        "confidence_entity": 0.9969515800476074,
+        "confidence_entity": 0.9925636649131775,
         "value": "thêsa kiwe yuwe puiinxitxis eskhe vxitna yuhta",
         "extractor": "DIETClassifier",
         "processors": [
@@ -292,7 +125,7 @@
         "entity": "Participacion_Comunitaria",
         "start": 174,
         "end": 181,
-        "confidence_entity": 0.5132473111152649,
+        "confidence_entity": 0.5866416096687317,
         "value": "nasa we",
         "extractor": "DIETClassifier"
       }
@@ -313,7 +146,7 @@
         "entity": "Diversidad_Etnica_Cultural",
         "start": 29,
         "end": 33,
-        "confidence_entity": 0.7507033944129944,
+        "confidence_entity": 0.8737116456031799,
         "value": "nasa",
         "extractor": "DIETClassifier"
       },
@@ -321,7 +154,7 @@
         "entity": "Diversidad_Etnica_Cultural",
         "start": 55,
         "end": 76,
-        "confidence_entity": 0.736788809299469,
+        "confidence_entity": 0.8397132158279419,
         "value": "fxiy fxiy nasa we'sxa",
         "extractor": "DIETClassifier",
         "processors": [
@@ -363,7 +196,7 @@
         "entity": "Diversidad_Etnica_Cultural",
         "start": 0,
         "end": 21,
-        "confidence_entity": 0.726073145866394,
+        "confidence_entity": 0.7443439364433289,
         "value": "fxiy fxiy nasa we'sxa",
         "extractor": "DIETClassifier",
         "processors": [
@@ -374,7 +207,7 @@
         "entity": "Resistencia_Pacifica",
         "start": 38,
         "end": 63,
-        "confidence_entity": 0.8653694987297058,
+        "confidence_entity": 0.7645989656448364,
         "value": "çxhaçxçxhaçxha yujun ûswa",
         "extractor": "DIETClassifier"
       },
@@ -382,7 +215,7 @@
         "entity": "Resistencia_Pacifica",
         "start": 65,
         "end": 70,
-        "confidence_entity": 0.9985363483428955,
+        "confidence_entity": 0.9985937476158142,
         "value": "yuuna",
         "extractor": "DIETClassifier"
       },
@@ -390,7 +223,7 @@
         "entity": "Diversidad_Etnica_Cultural",
         "start": 100,
         "end": 104,
-        "confidence_entity": 0.809878945350647,
+        "confidence_entity": 0.8913614749908447,
         "value": "nasa",
         "extractor": "DIETClassifier"
       },
@@ -398,7 +231,7 @@
         "entity": "Diversidad_Etnica_Cultural",
         "start": 126,
         "end": 147,
-        "confidence_entity": 0.923042356967926,
+        "confidence_entity": 0.9054737687110901,
         "value": "fxiy fxiy nasa we'sxa",
         "extractor": "DIETClassifier",
         "processors": [
@@ -409,7 +242,7 @@
         "entity": "Resistencia_Pacifica",
         "start": 164,
         "end": 189,
-        "confidence_entity": 0.8164916038513184,
+        "confidence_entity": 0.7742873430252075,
         "value": "çxhaçxçxhaçxha yujun ûswa",
         "extractor": "DIETClassifier"
       },
@@ -417,7 +250,7 @@
         "entity": "Resistencia_Pacifica",
         "start": 191,
         "end": 196,
-        "confidence_entity": 0.9983718991279602,
+        "confidence_entity": 0.9984042048454285,
         "value": "yuuna",
         "extractor": "DIETClassifier"
       }
@@ -450,7 +283,7 @@
         "entity": "Resistencia_Pacifica",
         "start": 14,
         "end": 39,
-        "confidence_entity": 0.7906947135925293,
+        "confidence_entity": 0.7796527743339539,
         "value": "çxhaçxçxhaçxha yujun ûswa",
         "extractor": "DIETClassifier"
       },
@@ -458,7 +291,7 @@
         "entity": "Resistencia_Pacifica",
         "start": 41,
         "end": 46,
-        "confidence_entity": 0.9986503720283508,
+        "confidence_entity": 0.9985565543174744,
         "value": "yuuna",
         "extractor": "DIETClassifier"
       },
@@ -466,7 +299,7 @@
         "entity": "Diversidad_Etnica_Cultural",
         "start": 76,
         "end": 80,
-        "confidence_entity": 0.8513540625572205,
+        "confidence_entity": 0.854465663433075,
         "value": "nasa",
         "extractor": "DIETClassifier"
       },
@@ -474,7 +307,7 @@
         "entity": "Diversidad_Etnica_Cultural",
         "start": 102,
         "end": 123,
-        "confidence_entity": 0.8638848066329956,
+        "confidence_entity": 0.8855838775634766,
         "value": "fxiy fxiy nasa we'sxa",
         "extractor": "DIETClassifier",
         "processors": [
@@ -485,7 +318,7 @@
         "entity": "Resistencia_Pacifica",
         "start": 140,
         "end": 165,
-        "confidence_entity": 0.8149583339691162,
+        "confidence_entity": 0.7958905100822449,
         "value": "çxhaçxçxhaçxha yujun ûswa",
         "extractor": "DIETClassifier"
       },
@@ -493,7 +326,7 @@
         "entity": "Resistencia_Pacifica",
         "start": 167,
         "end": 172,
-        "confidence_entity": 0.9989104270935059,
+        "confidence_entity": 0.9988293051719666,
         "value": "yuuna",
         "extractor": "DIETClassifier"
       }
@@ -520,7 +353,7 @@
         "entity": "Resistencia_Pacifica",
         "start": 0,
         "end": 16,
-        "confidence_entity": 0.9596350789070129,
+        "confidence_entity": 0.8940040469169617,
         "value": "Çxhaçxha yahtxte",
         "extractor": "DIETClassifier",
         "processors": [
@@ -531,7 +364,7 @@
         "entity": "Caminos_Resistencia",
         "start": 27,
         "end": 34,
-        "confidence_entity": 0.984166145324707,
+        "confidence_entity": 0.971971869468689,
         "value": "u'jwena",
         "extractor": "DIETClassifier"
       },
@@ -539,37 +372,40 @@
         "entity": "Resistencia_Pacifica",
         "start": 35,
         "end": 49,
-        "confidence_entity": 0.5341202616691589,
+        "confidence_entity": 0.49485331773757935,
         "value": "çxhaçxçxhaçxha",
         "extractor": "DIETClassifier"
       }
     ]
   },
   {
-    "text": "u'jwena çxhaçxçxhaçxha",
+    "text": "kwe'sx uma kiwes puiinxi ' ekahnasa kiwes subna kuhte txãwey çaam atsatx",
     "entities": [
       {
         "start": 0,
-        "end": 22,
-        "value": "u'jwena çxhaçxçxhaçxha",
-        "entity": "Caminos_Resistencia"
+        "end": 24,
+        "value": "kwe'sx uma kiwes puiinxi",
+        "entity": "Recuperacion_Tierras_Resguardo"
       }
     ],
     "predicted_entities": [
       {
-        "entity": "Caminos_Resistencia",
+        "entity": "Recuperacion_Tierras_Resguardo",
         "start": 0,
-        "end": 7,
-        "confidence_entity": 0.9844104051589966,
-        "value": "u'jwena",
-        "extractor": "DIETClassifier"
+        "end": 24,
+        "confidence_entity": 0.969215989112854,
+        "value": "kwe'sx uma kiwes puiinxi",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
       },
       {
-        "entity": "Resistencia_Pacifica",
-        "start": 8,
-        "end": 22,
-        "confidence_entity": 0.4812656342983246,
-        "value": "çxhaçxçxhaçxha",
+        "entity": "Recuperacion_Tierras_Resguardo",
+        "start": 36,
+        "end": 41,
+        "confidence_entity": 0.8260343074798584,
+        "value": "kiwes",
         "extractor": "DIETClassifier"
       }
     ]
@@ -589,7 +425,7 @@
         "entity": "Recuperacion_Tierras_Resguardo",
         "start": 12,
         "end": 38,
-        "confidence_entity": 0.8970191478729248,
+        "confidence_entity": 0.856910765171051,
         "value": "kiwe pa'ka meh puîn ûsthaw",
         "extractor": "DIETClassifier",
         "processors": [
@@ -600,7 +436,7 @@
         "entity": "Recuperacion_Tierras_Resguardo",
         "start": 68,
         "end": 74,
-        "confidence_entity": 0.5875020623207092,
+        "confidence_entity": 0.7402225136756897,
         "value": "ûsthaw",
         "extractor": "DIETClassifier"
       }
@@ -633,7 +469,7 @@
         "entity": "Recuperacion_Tierras_Resguardo",
         "start": 0,
         "end": 24,
-        "confidence_entity": 0.9026160836219788,
+        "confidence_entity": 0.972722589969635,
         "value": "kwe'sx uma kiwes puiinxi",
         "extractor": "DIETClassifier",
         "processors": [
@@ -644,7 +480,7 @@
         "entity": "Recuperacion_Tierras_Resguardo",
         "start": 138,
         "end": 164,
-        "confidence_entity": 0.9353164434432983,
+        "confidence_entity": 0.9402145147323608,
         "value": "kiwe pa'ka meh puîn ûsthaw",
         "extractor": "DIETClassifier",
         "processors": [
@@ -655,7 +491,7 @@
         "entity": "Recuperacion_Tierras_Resguardo",
         "start": 194,
         "end": 200,
-        "confidence_entity": 0.9196993112564087,
+        "confidence_entity": 0.9341854453086853,
         "value": "ûsthaw",
         "extractor": "DIETClassifier"
       },
@@ -663,7 +499,7 @@
         "entity": "Recuperacion_Tierras_Resguardo",
         "start": 201,
         "end": 224,
-        "confidence_entity": 0.933555006980896,
+        "confidence_entity": 0.7542185187339783,
         "value": "kwe'sx uma kiwe puiinxi",
         "extractor": "DIETClassifier",
         "processors": [
@@ -674,9 +510,58 @@
         "entity": "Recuperacion_Tierras_Resguardo",
         "start": 227,
         "end": 230,
-        "confidence_entity": 0.943289577960968,
+        "confidence_entity": 0.7694459557533264,
         "value": "meh",
         "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "kwe'sx uma kiwes puiinxi ' kçxhaçxhan ûsa ksxabuçxha çxhãçxha yujun ûswa'ja's, ekahnasa kiwes subna kuhte txãwey çaam atsatx, Naa Caucate kiwe pa'ka meh puîn ûsthaw",
+    "entities": [
+      {
+        "start": 0,
+        "end": 24,
+        "value": "kwe'sx uma kiwes puiinxi",
+        "entity": "Recuperacion_Tierras_Resguardo"
+      },
+      {
+        "start": 138,
+        "end": 164,
+        "value": "kiwe pa'ka meh puîn ûsthaw",
+        "entity": "Recuperacion_Tierras_Resguardo"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "Recuperacion_Tierras_Resguardo",
+        "start": 0,
+        "end": 24,
+        "confidence_entity": 0.9564955234527588,
+        "value": "kwe'sx uma kiwes puiinxi",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "Recuperacion_Tierras_Resguardo",
+        "start": 88,
+        "end": 93,
+        "confidence_entity": 0.57025146484375,
+        "value": "kiwes",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "Recuperacion_Tierras_Resguardo",
+        "start": 138,
+        "end": 164,
+        "confidence_entity": 0.9329180717468262,
+        "value": "kiwe pa'ka meh puîn ûsthaw",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
       }
     ]
   },
@@ -701,7 +586,7 @@
         "entity": "Recuperacion_Tierras_Resguardo",
         "start": 12,
         "end": 38,
-        "confidence_entity": 0.8634878993034363,
+        "confidence_entity": 0.884518027305603,
         "value": "kiwe pa'ka meh puîn ûsthaw",
         "extractor": "DIETClassifier",
         "processors": [
@@ -712,7 +597,7 @@
         "entity": "Recuperacion_Tierras_Resguardo",
         "start": 68,
         "end": 74,
-        "confidence_entity": 0.6991161704063416,
+        "confidence_entity": 0.8983340263366699,
         "value": "ûsthaw",
         "extractor": "DIETClassifier"
       },
@@ -720,7 +605,7 @@
         "entity": "Recuperacion_Tierras_Resguardo",
         "start": 75,
         "end": 98,
-        "confidence_entity": 0.882659912109375,
+        "confidence_entity": 0.8243512511253357,
         "value": "kwe'sx uma kiwe puiinxi",
         "extractor": "DIETClassifier",
         "processors": [
@@ -731,7 +616,7 @@
         "entity": "Recuperacion_Tierras_Resguardo",
         "start": 101,
         "end": 104,
-        "confidence_entity": 0.9454686045646667,
+        "confidence_entity": 0.8220902681350708,
         "value": "meh",
         "extractor": "DIETClassifier"
       }
@@ -764,7 +649,7 @@
         "entity": "Memoria_Historica",
         "start": 0,
         "end": 28,
-        "confidence_entity": 0.9963794350624084,
+        "confidence_entity": 0.9900767207145691,
         "value": "yeçka thê’sa dxi’j kikxnxitx",
         "extractor": "DIETClassifier",
         "processors": [
@@ -772,29 +657,26 @@
         ]
       },
       {
-        "entity": "Espiritualidad_Nasa",
-        "start": 48,
-        "end": 49,
-        "confidence_entity": 0.6036638617515564,
-        "value": "w",
+        "entity": "Memoria_Historica",
+        "start": 67,
+        "end": 84,
+        "confidence_entity": 0.5564011335372925,
+        "value": "txanteywe'sxa dxi",
         "extractor": "DIETClassifier"
       },
       {
         "entity": "Memoria_Historica",
-        "start": 67,
-        "end": 80,
-        "confidence_entity": 0.9863457083702087,
-        "value": "txanteywe'sxa",
-        "extractor": "DIETClassifier",
-        "processors": [
-          "EntitySynonymMapper"
-        ]
+        "start": 101,
+        "end": 104,
+        "confidence_entity": 0.6264767050743103,
+        "value": "dxi",
+        "extractor": "DIETClassifier"
       },
       {
         "entity": "Espiritualidad_Nasa",
         "start": 114,
         "end": 137,
-        "confidence_entity": 0.9944120049476624,
+        "confidence_entity": 0.9819544553756714,
         "value": "ksxa'w we'sxyak neesnxi",
         "extractor": "DIETClassifier",
         "processors": [
@@ -824,7 +706,7 @@
         "entity": "Memoria_Historica",
         "start": 0,
         "end": 28,
-        "confidence_entity": 0.9962956309318542,
+        "confidence_entity": 0.9887900352478027,
         "value": "yeçka thê’sa dxi’j kikxnxitx",
         "extractor": "DIETClassifier",
         "processors": [
@@ -833,17 +715,17 @@
       },
       {
         "entity": "Memoria_Historica",
-        "start": 84,
-        "end": 87,
-        "confidence_entity": 0.6214332580566406,
-        "value": "dxi",
+        "start": 78,
+        "end": 79,
+        "confidence_entity": 0.9029051065444946,
+        "value": "j",
         "extractor": "DIETClassifier"
       },
       {
         "entity": "Espiritualidad_Nasa",
         "start": 97,
         "end": 120,
-        "confidence_entity": 0.9864029884338379,
+        "confidence_entity": 0.9123522043228149,
         "value": "ksxa'w we'sxyak neesnxi",
         "extractor": "DIETClassifier",
         "processors": [
@@ -867,7 +749,7 @@
         "entity": "Cabildo_Abierto",
         "start": 11,
         "end": 13,
-        "confidence_entity": 0.9402276873588562,
+        "confidence_entity": 0.9248203635215759,
         "value": "ûs",
         "extractor": "DIETClassifier"
       },
@@ -875,7 +757,7 @@
         "entity": "Cabildo_Abierto",
         "start": 45,
         "end": 79,
-        "confidence_entity": 0.91294264793396,
+        "confidence_entity": 0.8266041874885559,
         "value": "nasa wala pkhakheçxa ûs yahkxnxisa",
         "extractor": "DIETClassifier",
         "processors": [

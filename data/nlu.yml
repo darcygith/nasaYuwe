@@ -16,7 +16,7 @@ nlu:
    - [kwe'sx uma kiwe îtxi](Territorio_Madre_Tierra) jxuhkasay pêeykaja'ka
    - [Nasa we'sxa](Autonomia_Territorial) kwe'sxthaw ûsyahtxa mjîi' uma kiwes txakwe subyame'
    - [Nasa we'sxa](Autonomia_Territorial) mjîi' uma kiwes txakwe subyame'
-
+#12
  
 - intent: frase_36_31
   examples: |
@@ -28,7 +28,7 @@ nlu:
      - [nasawe'sx fxi'zeçxa çxhãçxha ûsnxi] (Cultura_Autonomía) ksxabuçxa ûsnxi kwe’sx uma kiweyakx wãt fxi’zenxis pakwen 
      - [nasawe'sx fxi'zeçxa çxhãçxha ûsnxi] (Cultura_Autonomía) ksxabuçxa ûsnxi
      - [nasawe'sx fxi'zeçxa çxhãçxha ûsnxi] (Cultura_Autonomía) kwe’sx uma kiweyakx wãt fxi’zenxis pakwen 
-
+#8
 #historia gubernamental
 - intent: frase_4_5
   examples: |
@@ -43,7 +43,7 @@ nlu:
     - tegunxa ãn kwe'sx uma kiwes subwasametewa [nasa we'sx](Participacion_Comunitaria) kaanxi txãwe'sx eçfxi'nxi ûsteyu' [thêsa kiwe yuwe puiinxitxis eskhe vxitna yuhta](Derecho_Territorial) nasa we'sxitxis vxite nasatx dukna 
     - [nasa we'sx](Participacion_Comunitaria), kwe'sx nasatxis naa u'pta çxhab walasu kaanxi txãwe'sx eçfxi'nxi ûsteyu' tegunxa ãn kwe'sx uma kiwes subwasametewa [thêsa kiwe yuwe puiinxitxis eskhe vxitna yuhta](Derecho_Territorial) nasa we'sxitxis vxite nasatx dukna 
 
-
+#10
 #historia conflicto armado
 - intent: frase_6
   examples: |
@@ -53,7 +53,7 @@ nlu:
     - eka we'sx nasa eç fxi'nxi nwe'weçme txã paka nasa' [çxhab walan u'jn ûsta](Desplazamiento)
     - fxi'nxi nwe'weçme txã paka nasa' [çxhab walan u'jn ûsta](Desplazamiento
     - txã paka nasa' [çxhab walan u'jn ûsta](Desplazamiento) walatx tegmete 
-
+#6
 
  #historia conflicto armado
 - intent: frase_50
@@ -61,7 +61,7 @@ nlu:
     - [Çxhaçxçxhaçxha waki'jn u'jwena'w yuwe tuthtxis puuin](Resistencia_Unidad) ja'da pkhakheçxha uhn îtxi fxi'zewaja's
     - [Çxhaçxçxhaçxha waki'jn u'jwena'w yuwe tuthtxis puuin](Resistencia_Unidad) uhn îtxi fxi'zewaja's
     - [Çxhaçxçxhaçxha waki'jn u'jwena'w yuwe tuthtxis puuin](Resistencia_Unidad) ja'da pkhakheçxha
-
+#3
  #historia conflicto armado
 - intent: frase_43_44
   examples: |
@@ -70,6 +70,7 @@ nlu:
     - [Çaam atuwe'sxa](Conflicto_Armado) meh kpa' walasa dwihtxi nasa we'sxtxi.
     - meh akasa dwihtxi [txãntey dxi'j kikxnxitxis kaasxigun](Memoria_Historica) naa Caucate
     - [Çaam atuwe'sxa](Conflicto_Armado) meh kpa' walasa dwihtxi nasa we'sxtxi [txãntey dxi'j kikxnxitxis kaasxigun](Memoria_Historica) naa Caucate
+  #5
  #historia conclicto armado
 - intent: frase_42_46
   examples: |
@@ -79,14 +80,14 @@ nlu:
     - [çxhaçxçxhaçxha yujun ûswa' yuuna](Resistencia_Pacifica)
     - [fxiy fxiy nasa we'sxa](Diversidad_Etnica_Cultural) ' teeçx na'wçxa [çxhaçxçxhaçxha yujun ûswa' yuuna](Resistencia_Pacifica) Kwe'sxwa pêeykathasuthaw maz nasa ûsnetkhaw naa kiwete [Fxiy fxiy nasa we'sxa](Diversidad_Etnica_Cultural) ' teeçx na'wçxa [çxhaçxçxhaçxha yujun ûswa' yuuna](Resistencia_Pacifica)
     - teeçx na'wçxa [çxhaçxçxhaçxha yujun ûswa' yuuna](Resistencia_Pacifica) Kwe'sxwa pêeykathasuthaw maz nasa ûsnetkhaw naa kiwete [Fxiy fxiy nasa we'sxa](Diversidad_Etnica_Cultural) ' teeçx na'wçxa [çxhaçxçxhaçxha yujun ûswa' yuuna](Resistencia_Pacifica)
-
+#6
 #historia comunidad fortalecida
 - intent: frase_49
   examples: |
     - [Çxhaçxha yahtxte](Resistencia_Pacifica) ewsa vxan [u'jwena çxhaçxçxhaçxha](Caminos_Resistencia)
     - [u'jwena çxhaçxçxhaçxha](Caminos_Resistencia)
     - [Çxhaçxha yahtxte](Resistencia_Pacifica)
-  
+  #3
 # --------------------------  NUEVAS INTENCIONES--------------------------
 
 # Historia conflicto Armado
@@ -104,16 +105,16 @@ nlu:
     - [kwe'sx uma kiwes puiinxi](Recuperacion_Tierras_Resguardo) ' kçxhaçxhan ûsa ksxabuçxha çxhãçxha yujun ûswa'ja's, ekahnasa kiwes subna kuhte txãwey çaam atsatx, Naa Caucate [kiwe pa'ka meh puîn ûsthaw](Recuperacion_Tierras_Resguardo), txãpaka  nasawe'sxa ptxunxi ûsthaw [kwe'sx uma kiwe puiinxi](Recuperacion_Tierras_Resguardo) ' meh thu'thesa yuçxa ûsa ekah we'sxyak
     - [kwe'sx uma kiwes puiinxi](Recuperacion_Tierras_Resguardo) ' kçxhaçxhan ûsa ksxabuçxha çxhãçxha yujun ûswa'ja's, ekahnasa kiwes subna kuhte txãwey çaam atsatx, Naa Caucate [kiwe pa'ka meh puîn ûsthaw](Recuperacion_Tierras_Resguardo)
     - Naa Caucate [kiwe pa'ka meh puîn ûsthaw](Recuperacion_Tierras_Resguardo), txãpaka  nasawe'sxa ptxunxi ûsthaw [kwe'sx uma kiwe puiinxi](Recuperacion_Tierras_Resguardo) ' meh thu'thesa yuçxa ûsa ekah we'sxyak
-
+#12
 - intent: frase_38_39
   examples: |
     - [kwe'sx uma kiwe puiinxi dxi'j](Recuperacion_Tierras_Resguardo), [neeyunxa  ûs yahtxna u'jwa'json](Memoria_Historica)
     - [Kwe'sx uma kiwe pa'ka puuîn](Recuperacion_Tierras_Resguardo), [txãw yuçxha'wãt fxi'zena'w](Dignidad_Humana)
     - [txãw yuçxha'wãt fxi'zena'w](Dignidad_Humana), [neeyunxa  ûs yahtxna u'jwa'json](Memoria_Historica)
-    - [kwe'sx uma kiwe puiinxi dxi'j](Recuperacion_Tierras_Resguardo), [neeyunxa  ûs yahtxna u'jwa'json](Memoria_Historica), [Kwe'sx uma kiwe pa'ka puuîn](Recuperacion_Tierras_Resguardo) [txãw yuçxha'wãt fxi'zena'w](Dignidad_humana)
-    - [kwe'sx uma kiwe puiinxi dxi'j](Recuperacion_Tierras_Resguardo), [txãw yuçxha'wãt fxi'zena'w](Dignidad_humana)
+    - [kwe'sx uma kiwe puiinxi dxi'j](Recuperacion_Tierras_Resguardo), [neeyunxa  ûs yahtxna u'jwa'json](Memoria_Historica), [Kwe'sx uma kiwe pa'ka puuîn](Recuperacion_Tierras_Resguardo) [txãw yuçxha'wãt fxi'zena'w](Dignidad_Humana)
+    - [kwe'sx uma kiwe puiinxi dxi'j](Recuperacion_Tierras_Resguardo), [txãw yuçxha'wãt fxi'zena'w](Dignidad_Humana)
     - [Kwe'sx uma kiwe pa'ka puuîn](Recuperacion_Tierras_Resguardo), [neeyunxa  ûs yahtxna u'jwa'json](Memoria_Historica)
-
+#6
 #Historia espiritualidad
 - intent: frase_41_48_30
   examples: |
@@ -128,7 +129,7 @@ nlu:
     - [yeçka thê’sa dxi’j kikxnxitx](Memoria_Historica)  jiyun u’jnxi] txã’w jiyuçxa kwe’sxwa atpuçxna  u’jwena’w ew fxi’zewaja’s pakwen
     - [yeçka thê’sa dxi’j kikxnxitx](Memoria_Historica)  jiyun u’jnxi] txã’w jiyuçxa kwe’sxwa [txanteywe'sxa](Memoria_Historica) dxi'ja' maaju'j txã dxi'te u'jwa [ksxa'w we'sxyak neesnxi](Espiritualidad_Nasa) ' ,çxhaçxha' ûswaja's pu'çxii'kwe ptxunûstewa
     - [yeçka thê’sa dxi’j kikxnxitx](Memoria_Historica) atpuçxna  u’jwena’w ew fxi’zewaja’s pakwen maaju'j txã dxi'te u'jwa [ksxa'w we'sxyak neesnxi](Espiritualidad_Nasa) ' çxhaçxha' ûswaja's pu'çxii'kwe ptxunûstewa
-
+#11
 - intent: frase_37_40_45
   examples: |
     - [kwe'sx uma kiwe](Defensa_Territorio) meh pdxi'jpun ûsa çaam atsayak
@@ -141,7 +142,7 @@ nlu:
     - [kwe'sx uma kiwe](Defensa_Territorio) meh pdxi'jpun
     - [nasawe'sx fxi'zeçxa çxhãçxha ûsnxi](Cultura_Autonomia) pabawêjê'tx
     - [ukawe'sxa](Autoridad_Propia) ' meh ptxunx Yun ûsta
-
+#10
 - intent: frase_47  
   examples: |
     - [kwe'sx fxi'zenxis kçxhaçxhan](Gobierno_Propio) txã dxi’jyuuna wãt [fxi'zenxis uywaja](Convivencia_Armonica) '
@@ -149,7 +150,7 @@ nlu:
     - [fxi'zenxis uywaja](Convivencia_Armonica) '
     - [fxi'zenxis uywaja](Convivencia_Armonica) '
     - [kwe'sx fxi'zenxis kçxhaçxhan](Gobierno_Propio) txã dxi’jyuuna
-
+#5
 - intent: frase_32  
   examples: |
     - kçxhaçxhan ûs yahkxçxa thwêjin u’jçxa kwe’sx [nasa wala pkhakheçxa ûs yahkxnxisa](Cabildo_Abierto) ukawe’sxtxis u’jwena’w kihçxa dxi’j pakwena’w çxhãçxçxhãçxha ksxabuçxa puutxwe’wna ûsuna’w. 
@@ -157,3 +158,4 @@ nlu:
     - kwe’sx [nasa wala pkhakheçxa ûs yahkxnxisa](Cabildo_Abierto) pakwena’w çxhãçxçxhãçxha ksxabuçxa puutxwe’wna ûsuna’w. 
     - [nasa wala pkhakheçxa ûs yahkxnxisa](Cabildo_Abierto) ukawe’sxtxis
     - [nasa wala pkhakheçxa ûs yahkxnxisa](Cabildo_Abierto) ukawe’sxtxis u’jwena’w kihçxa dxi’j pakwena’w çxhãçxçxhãçxha ksxabuçxa puutxwe’wna ûsuna’w.
+#5
