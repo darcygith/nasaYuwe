@@ -24,6 +24,11 @@ rules:
     steps:
       - intent: frase_50
       - action: action_frase_50
+  
+  - rule: responder conflicto armado resistencia
+    steps:
+      - intent: frase_15
+      - action: action_frase_15
 
   - rule: responder conflicto armado y memoria
     steps:
@@ -52,13 +57,13 @@ rules:
 
   - rule: responder espiritualidad
     steps:
-      - intent: frase_41_48_30
-      - action: action_frase_41_48_30
+      - intent: frase_41_48_30_18
+      - action: action_frase_41_48_30_18
 
   - rule: responder defensa territorio
     steps:
-      - intent: frase_37_40_45
-      - action: action_frase_37_40_45
+      - intent: frase_37_40_45_19
+      - action: action_frase_37_40_45_19
       
   - rule: responder Convivencia
     steps: 
@@ -68,3 +73,23 @@ rules:
     steps: 
       - intent: frase_32
       - action: action_frase_32
+  
+  - rule: responder autonomia territorial violencia
+    steps:
+      - intent: frase_14
+      - action: action_frase_14
+  
+  - rule: responder autonomia territorial y gobierno propio
+    steps:
+      - intent: frase_27_28
+      - action: action_frase_27_28
+  
+  - rule: 
+    steps:
+      - intent: frase_24_25
+      - action: action_frase_24_25
+
+  - rule: responder espiritualidad y territorio ancestral
+    steps:
+      - intent: frase_20_21
+      - action: action_frase_20_21

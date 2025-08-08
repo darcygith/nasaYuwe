@@ -11,10 +11,15 @@ intents:
   - frase_49
   - frase_33_34_35
   - frase_38_39
-  - frase_41_48_30
-  - frase_37_40_45
+  - frase_41_48_30_18
+  - frase_37_40_45_19
   - frase_47
   - frase_32
+  - frase_14
+  - frase_15
+  - frase_27_28
+  - frase_24_25
+  - frase_20_21
 
 entities:
   - Territorio_Madre_Tierra
@@ -41,6 +46,16 @@ entities:
   - Convivencia_Armonica
 
   - Cabildo_Abierto
+
+  - Plan_Vida
+  - Justicia_Propia
+  - Tejido_Social
+  - Salud_Educacion_Justicia
+
+  - Territorio_Ancestral_Pueblo_Nasa
+  - Autoridad_Tradicional
+  - Oralidad
+  - Defensa_Familia
 
 slots:
   Territorio_Madre_Tierra:
@@ -182,6 +197,57 @@ slots:
       - type: from_entity
         entity: Cabildo_Abierto
   
+  Plan_Vida:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_entity
+        entity: Plan_Vida
+  Justicia_Propia:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_entity
+        entity: Justicia_Propia
+  Tejido_Social:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_entity
+        entity: Tejido_Social
+  Salud_Educacion_Justicia:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_entity
+        entity: Salud_Educacion_Justicia
+  
+  Territorio_Ancestral_Pueblo_Nasa:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_entity 
+        entity: Territorio_Ancestral_Pueblo_Nasa
+  
+  Autoridad_Tradicional:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_entity
+        entity: Autoridad_Tradicional 
+  
+  Oralidad:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_entity
+        entity: Oralidad  
+  Defensa_Familia:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_entity
+        entity: Defensa_Familia
 actions:
   - action_frase_1_2_3
   - action_frase_36_31
@@ -193,10 +259,15 @@ actions:
   - action_frase_49
   - action_frase_33_34_35
   - action_frase_38_39
-  - action_frase_41_48_30
-  - action_frase_37_40_45
+  - action_frase_41_48_30_18
+  - action_frase_37_40_45_19
   - action_frase_47
   - action_frase_32
+  - action_frase_14
+  - action_frase_15
+  - action_frase_27_28
+  - action_frase_24_25
+  - action_frase_20_21
 
 
 session_config:

@@ -56,9 +56,8 @@ TRADUCCIONES_NASA_9 = {
 }
 
 TRADUCCIONES_NASA_10 = {
-    "txanteywe'sxa": "ancestrales memoriales",
-    "Ksxa'w we'sxyak neesnxi": "Seres Espirituales",
-    "yeçka thê’sa dxi’j kikxnxitx": "comprender losprocesos ancestrales"
+    "txanteywe'sxa": "ancestrales",
+    "Ksxa'w we'sxyak neesnxi": "Seres Espirituales"
 }
 
 TRADUCCIONES_NASA_11 = {
@@ -73,6 +72,31 @@ TRADUCCIONES_NASA_12 = {
 }
 TRADUCCIONES_NASA_13 = {
     "nasa wala pkhakheçxa ûs yahkxnxisa": "fortalecer nuestros cabildos y creando espacios de diálogo"
+}
+
+TRADUCCIONES_NASA_14 = {
+    "nasa we'sxa": "autonomia territorial"
+}
+
+TRADUCCIONES_NASA_15 = {
+    "çxhãçxha yujun ûsnxi":"resistencia pacifica"
+}
+TRADUCCIONES_NASA_16 = { 
+    "wãt fxi'zewaja's pakwen u'jnxi": "Plan de Vida",
+    "ukawe'sx yu'çenxi yuwe": "Justicia Propia",
+    "nasawe'sx pkhakheçxa umna u'jnxi": "Tejido Social",
+    "kwe'sx ukawe'sx mjînxi": "Gobierno Propio",
+    "wãt wãt fxi'zenxi,  piyayuwe, yu'çenxi": "Salud, Educación y Justicia"
+  }
+TRADUCCIONES_NASA_17 = {
+    "ksxa'w we'sxyak neesnxi": "Espiritualidad Nasa",
+    "txãntey nasawe'sx pekunxi kiwe": "Territorio Ancestral del Pueblo Nasa"
+}
+TRADUCCIONES_NASA_18 = {
+    "jwêe sxigkanme": "Autoridad Tradicional",
+    "yuumeteyu' yu'çen": "Oralidad",
+    "wãt wãt yah fxi’zena": "Convivencia Armonica",
+    "nxafxteyu' nwe'sx yuwe": "Defensa de la Familia"
 }
 # #limpiar comillas
 # def clean_Comillas(frase):
@@ -279,26 +303,26 @@ class ActionTraducirNasa9(Action):
 
 class ActionTraducirNasa10(Action):
     def name(self):
-        return "action_frase_41_48_30" 
+        return "action_frase_41_48_30_18" 
 
     def run(self, dispatcher, tracker, domain):
         # Obtener los valores de los slots
-        historico = tracker.get_slot("Memoria_Historico")
+        historico = tracker.get_slot("Memoria_Historica")
         esp = tracker.get_slot("Espiritualidad_Nasa")
-        his_ = tracker.get_slot("Memoria_Histórica")
+
 
         # Aplicar la traducción
         historico_trad = traducir(historico, TRADUCCIONES_NASA_10)
         esp_trad = traducir(esp, TRADUCCIONES_NASA_10)
-        his_trad = traducir(his_, TRADUCCIONES_NASA_10)
+
         # Formatear y enviar el mensaje con las traducciones
-        mensaje = f"El indigena se refiere a {his_trad}  {historico_trad} han guiado nuestros pasos, los {esp_trad} fortalecen la resistencia frente a la violencia"
+        mensaje = f"El indígena se refiere a un ser que, desde su cosmovisión y {esp_trad}, ha tejido procesos {historico_trad} memoriales en defensa de la vida y el territorio. Estos procesos fortalecen la resistencia frente a la violencia, guiados por los {esp_trad} y la espiritualidad nasa. Comprender estas memorias vivas permite transformar el presente y construir un futuro más justo y armonioso."
         dispatcher.utter_message(text=mensaje)
         return []
 
 class ActionTraducirNasa11(Action):
     def name(self):
-        return "action_frase_37_40_45" 
+        return "action_frase_37_40_45_19" 
 
     def run(self, dispatcher, tracker, domain):
         # Obtener los valores de los slots
@@ -352,3 +376,98 @@ class ActionTraducirNasa13(Action):
         mensaje = f"El indigena se refiere al La lucha política pacífica para {cbildo_trad} como expresión de resistencia y unidad."
         dispatcher.utter_message(text=mensaje)
         return []
+
+class ActionTraducirNasa14(Action):
+    def name(self):
+        return "action_frase_14" 
+
+    def run(self, dispatcher, tracker, domain):
+        # Obtener los valores de los slots
+        autonomia = tracker.get_slot("Autonomia_Territorial")
+
+        # Aplicar la traducción
+        autonomia_trad = traducir(autonomia, TRADUCCIONES_NASA_14)
+
+        # Formatear y enviar el mensaje con las traducciones
+        mensaje = f"El indigena se refiere a la {autonomia_trad}  de los pueblos indigenas es amenazada por actores externos que busca explotar sus recursos naturales y territoriales"
+        dispatcher.utter_message(text=mensaje)
+        return []
+class ActionTraducirNasa15(Action):
+    def name(self):
+        return "action_frase_15" 
+
+    def run(self, dispatcher, tracker, domain):
+        # Obtener los valores de los slots
+        resistencia = tracker.get_slot("Resistencia_Pacifica")
+
+        # Aplicar la traducción
+        resistencia_trad = traducir(resistencia, TRADUCCIONES_NASA_15)
+        
+        # Formatear y enviar el mensaje con las traducciones
+        mensaje = f"El indigena se refiere a la {resistencia_trad}  de los pueblos indígenas se fortalece a través de mingas y congresos regionales que buscan la defensa de sus derechos."
+
+        dispatcher.utter_message(text=mensaje)
+        return []
+
+class ActionTraducirNasa16(Action):
+    def name(self):
+        return "action_frase_27_28" 
+
+    def run(self, dispatcher, tracker, domain):
+        # Obtener los valores de los slots
+        planVida = tracker.get_slot("Plan_de_Vida")
+        justicia = tracker.get_slot("Justicia_Propia")
+        tejido = tracker.get_slot("Tejido_Social")
+        gobierno = tracker.get_slot("Gobierno_Propio")
+        salud = tracker.get_slot("Salud_Educacion_Justicia")
+
+        # Aplicar la traducción
+        planVida_trad = traducir(planVida, TRADUCCIONES_NASA_16)
+        justicia_trad = traducir(justicia, TRADUCCIONES_NASA_16)
+        tejido_trad = traducir(tejido, TRADUCCIONES_NASA_16)
+        gobierno_trad = traducir(gobierno, TRADUCCIONES_NASA_16)
+        salud_trad = traducir(salud, TRADUCCIONES_NASA_16)
+
+        # Formatear y enviar el mensaje con las traducciones
+        mensaje = f"El indígena se refiere a un ser que construye su {planVida_trad} de manera autónoma, desde cada resguardo, guiado por su derecho propio y principios ancestrales {justicia_trad}.Este {planVida_trad} se organiza en distintos tejidos como el {tejido_trad}, el {gobierno_trad} y los sistemas propios —{salud_trad}—, con el fin de garantizar la pervivencia y la armonía del pueblo indígena.."
+        
+        dispatcher.utter_message(text=mensaje)
+        return []
+
+class ActionTraducirNasa17(Action):
+    def name(self):
+        return "action_frase_24_25" 
+
+    def run(self, dispatcher, tracker, domain):
+        # Obtener los valores de los slots
+        espiritualidad = tracker.get_slot("Espiritualidad_Nasa")
+        territorio = tracker.get_slot("Territorio_Ancestral_Pueblo_Nasa")
+
+        # Aplicar la traducción
+        espiritualidad_trad = traducir(espiritualidad, TRADUCCIONES_NASA_17)
+        territorio_trad = traducir(territorio, TRADUCCIONES_NASA_17)
+
+        # Formatear y enviar el mensaje con las traducciones
+        mensaje = f"El indígena se refiere a un ser en profunda conexión con la madre naturaleza, que orienta su vida desde la sabiduría de los mayores y la {espiritualidad_trad}. Esta espiritualidad permite comprender la palabra, los símbolos, sueños, señas y visiones, guiadas por los espíritus de la madre naturaleza. Para el pueblo nasa, el {territorio_trad} no es solo un espacio físico, sino la existencia misma, concebida en tres dimensiones: el espacio celeste, la tierra y el espacio subterráneo, donde se manifiesta la vida en su totalidad.."
+        
+        dispatcher.utter_message(text=mensaje)
+        return []
+
+class ActionTraducirNasa18(Action):
+    def name(self):
+        return "action_frase_20_21" 
+
+    def run(self, dispatcher, tracker, domain):
+        # Obtener los valores de los slots
+        autoridad = tracker.get_slot("Autoridad_Tradicional")
+        oralidad = tracker.get_slot("Oralidad")
+        convivencia = tracker.get_slot("Convivencia_Armonica")
+        defensa = tracker.get_slot("Defensa_Familia")
+
+        # Aplicar la traducción
+        autoridad_trad = traducir(autoridad, TRADUCCIONES_NASA_18)
+        oralidad_trad = traducir(oralidad, TRADUCCIONES_NASA_18)
+        convivencia_trad = traducir(convivencia, TRADUCCIONES_NASA_18)
+        defensa_trad = traducir(defensa, TRADUCCIONES_NASA_18)
+        # Formatear y enviar el mensaje con las traducciones
+        mensaje = f"El indígena se refiere a la importancia de la {autoridad_trad} y la {oralidad_trad} en la construcción de una convivencia armoniosa. La {convivencia_trad} se basa en el respeto mutuo y la defensa de la familia, donde cada miembro tiene un papel fundamental. La {defensa_trad} es esencial para preservar estos valores y garantizar el bienestar de la comunidad."
