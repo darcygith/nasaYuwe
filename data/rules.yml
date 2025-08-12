@@ -84,7 +84,7 @@ rules:
       - intent: frase_27_28
       - action: action_frase_27_28
   
-  - rule: 
+  - rule: responmder autonomia y gobierno
     steps:
       - intent: frase_24_25
       - action: action_frase_24_25

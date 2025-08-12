@@ -25,9 +25,9 @@ nlu:
      - [nasawe'sx fxi'zeçxa çxhãçxha ûsnxi](Cultura_Autonomia) fxiy nasa ûsthaw txãwa îtxi ûsmeyuna'w
      - [Kwe'sx uma kiwe meewãça](Territorio_Madre_Tierra)
      - [nasawe'sx fxi'zeçxa çxhãçxha ûsnxi](Cultura_Autonomia) fxiy nasa ûsthaw txãwa îtxi ûsmeyuna'w
-     - [nasawe'sx fxi'zeçxa çxhãçxha ûsnxi] (Cultura_Autonomía) ksxabuçxa ûsnxi kwe'sx uma kiweyakx wãt fxi'zenxis pakwen 
-     - [nasawe'sx fxi'zeçxa çxhãçxha ûsnxi] (Cultura_Autonomía) ksxabuçxa ûsnxi
-     - [nasawe'sx fxi'zeçxa çxhãçxha ûsnxi] (Cultura_Autonomía) kwe'sx uma kiweyakx wãt fxi'zenxis pakwen 
+     - [nasawe'sx fxi'zeçxa çxhãçxha ûsnxi](Cultura_Autonomía) ksxabuçxa ûsnxi kwe'sx uma kiweyakx wãt fxi'zenxis pakwen 
+     - [nasawe'sx fxi'zeçxa çxhãçxha ûsnxi](Cultura_Autonomía) ksxabuçxa ûsnxi
+     - [nasawe'sx fxi'zeçxa çxhãçxha ûsnxi](Cultura_Autonomía) kwe'sx uma kiweyakx wãt fxi'zenxis pakwen 
 #8
 #historia gubernamental
 - intent: frase_4_5
@@ -35,13 +35,13 @@ nlu:
     - [eka nasawe'sxa](Estados) paapeî' ji'pta' [nasa we'sx](Participacion_Comunitaria), kwe'sx nasatxis naa u'pta çxhab walasu kaanxi txãwe'sx eçfxi'nxi ûsteyu' tegunxa ãn kwe'sx uma kiwes subwasametewa
     - [nasa we'sx](Participacion_Comunitaria) kwe'sx nasatxis naa u'pta çxhab walasu kaanxi txãwe'sx eçfxi'nxi ûsteyu' tegunxa ãn kwe'sx uma kiwes subwasametewa
     - [eka nasawe'sxa](Estados) paapeî' ji'pta' kwe'sx nasatxis naa u'pta çxhab walasu kaanxi txãwe'sx eçfxi'nxi ûsteyu' tegunxa ãn kwe'sx uma kiwes subwasametewa
-    - [eka nasawe'sxa](Estados) [thêsa kiwe yuwe puiinxitxis eskhe vxitna yuhta](Derecho_Territorial) nasa we'sxitxis vxite nasatx dukna 
-    - [thêsa kiwe yuwe puiinxitxis eskhe vxitna yuhta](Derecho_Territorial) nasa we'sxitxis vxite nasatx dukna 
+    - [eka nasawe'sxa](Estados) [thêsa kiwe yuwe puiinxitxis](Derecho_Territorial)eskhe vxitna yuhta nasa we'sxitxis vxite nasatx dukna 
+    - [thêsa kiwe yuwe puiinxitxis](Derecho_Territorial) nasa we'sxitxis vxite nasatx dukna 
     - [nasa we'sx](Participacion_Comunitaria) uma kiwes subwasametewa
     - kwe'sx una [nasa we'sx](Participacion_Comunitaria) kwe'sx nasatxis naa u'pta çxhab walasu kaanxi
     - [nasa we'sx](Participacion_Comunitaria), ûsteyu' tegunxa ãn kwe'sx uma kiwes subwasametewa
-    - tegunxa ãn kwe'sx uma kiwes subwasametewa [nasa we'sx](Participacion_Comunitaria) kaanxi txãwe'sx eçfxi'nxi ûsteyu' [thêsa kiwe yuwe puiinxitxis eskhe vxitna yuhta](Derecho_Territorial) nasa we'sxitxis vxite nasatx dukna 
-    - [nasa we'sx](Participacion_Comunitaria), kwe'sx nasatxis naa u'pta çxhab walasu kaanxi txãwe'sx eçfxi'nxi ûsteyu' tegunxa ãn kwe'sx uma kiwes subwasametewa [thêsa kiwe yuwe puiinxitxis eskhe vxitna yuhta](Derecho_Territorial) nasa we'sxitxis vxite nasatx dukna 
+    - tegunxa ãn kwe'sx uma kiwes subwasametewa [nasa we'sx](Participacion_Comunitaria) kaanxi txãwe'sx eçfxi'nxi ûsteyu' [thêsa kiwe yuwe puiinxitxis](Derecho_Territorial) vxitna yuhta nasa we'sxitxis vxite nasatx dukna 
+    - [nasa we'sx](Participacion_Comunitaria), kwe'sx nasatxis naa u'pta çxhab walasu kaanxi txãwe'sx eçfxi'nxi ûsteyu' tegunxa ãn kwe'sx uma kiwes subwasametewa [thêsa kiwe yuwe puiinxitxis](Derecho_Territorial) vxitna yuhta nasa we'sxitxis vxite nasatx dukna 
 
 #10
 #historia conflicto armado
@@ -193,7 +193,6 @@ nlu:
   examples: |
     - [wãt fxi'zewaja's pakwen u'jnxi](Plan_Vida) nasawe'sx ûsnxisu ukawe'sxtxi umna u'jjwe kwe'sx fxi'zenxis [ukawe'sx yu'çenxi yuwe](Justicia_Propia) thegçxa kihçxa ju'jthewe'sx neewe'wnxis txthey nxuuçxa bakaçxteba Wãt nesyuna'w.
     - [wãt fxi'zewaja's pakwen u'jnxi](Plan_Vida) fxiy fxiy ku'ta  ji'pha [nasawe'sx pkhakheçxa umna u'jnxi](Tejido_Social) na'w txhudenxi ûsa [kwe'sx ukawe'sx mjînxi](Gobierno_Propio) pu'yaksawe'sx, [wãt wãt fxi'zenxi,  piyayuwe, yu'çenxi](Salud_Educacion_Justicia)
-
     - [Wãt fxi'zewaja's pakwen u'jnxi](Plan_Vida) nasawe'sx ûsnxisu ukawe'sxtxi umna u'jjwe kwe'sx fxi'zenxis.
     - [ukawe'sx yu'çenxi yuwe](Justicia_Propia) thegçxa kihçxa ju'jthewe'sx neewe'wnxis txthey nxuuçxa bakaçxteba Wãt nesyuna'w.
     - [Wãt fxi'zewaja's pakwen u'jnxi](Plan_Vida) fxiy fxiy ku'ta  ji'pha.
@@ -206,7 +205,6 @@ nlu:
   examples: |
     - [ksxa'w we'sxyak neesnxi](Espiritualidad_Nasa), neesutx meslu nxuuwã'satxis jiyun u'jkan, puutxwe'wna u'jkan, fxizen u'jkan, dewen ukan vxite kãame u'jkan txã'w nxuuçxa puutx ja'da wãt fxi'zeya 
     - Kwe'sx kiwe [txãntey nasawe'sx pekunxi kiwe](Territorio_Ancestral_Pueblo_Nasa) naa tek yakthaw puutxwe'wna pekhuju' êete ksxa'w we'sxyak, kiwe ksxa'w we'sxyak vxite tasxuj ksxa'w we'sxyak txãta' pu'yaksa nasa çxhabtxis
-
     - [ksxa'w we'sxyak neesnxi](Espiritualidad_Nasa), neesutx meslu nxuuwã'satxis jiyun u'jkan
     - [ksxa'w we'sxyak neesnxi](Espiritualidad_Nasa), puutxwe'wna u'jkan, fxizen u'jkan, dewen ukan vxite kãame u'jkan txã'w nxuuçxa puutx ja'da wãt fxi'zeya 
     - [ksxa'w we'sxyak neesnxi](Espiritualidad_Nasa) dewen ukan vxite kãame u'jkan txã'w nxuuçxa puutx ja'da wãt fxi'zeya
@@ -214,6 +212,7 @@ nlu:
     - [txãntey nasawe'sx pekunxi kiwe](Territorio_Ancestral_Pueblo_Nasa) ksxa'w we'sxyak, kiwe ksxa'w we'sxyak vxite tasxuj ksxa'w we'sxyak txãta' pu'yaksa nasa çxhabtxis
     - [ksxa'w we'sxyak neesnxi](Espiritualidad_Nasa), neesutx meslu nxuuwã'satxis jiyun u'jkan, puutxwe'wna u'jkan, fxizen u'jkan, dewen ukan vxite kãame u'jkan txã'w nxuuçxa puutx ja'da wãt fxi'zeya  Kwe'sx kiwe [txãntey nasawe'sx pekunxi kiwe](Territorio_Ancestral_Pueblo_Nasa) naa tek yakthaw puutxwe'wna pekhuju' êete ksxa'w we'sxyak, kiwe ksxa'w we'sxyak vxite tasxuj ksxa'w we'sxyak txãta' pu'yaksa nasa çxhabtxis
     - [ksxa'w we'sxyak neesnxi](Espiritualidad_Nasa), neesutx meslu nxuuwã'satxis jiyun u'jkan, puutxwe'wna u'jkan [txãntey nasawe'sx pekunxi kiwe](Territorio_Ancestral_Pueblo_Nasa) naa tek yakthaw puutxwe'wna pekhuju' êete ksxa'w we'sxyak
+
 - intent: frase_20_21
   examples: |
     - Nasawe'sxtxi ukawe'xtxi dxi'j kiknkhe [jwêe sxigkanme] (Autoridad_Tradicional) [yuumeteyu' yu'çen](Oralidad) txhey txãwyute [wãt wãt yah fxi'zena](Convivencia_Armonica) 
@@ -224,10 +223,10 @@ nlu:
     - [yuumeteyu' yu'çen](Oralidad) txhey txãwyute [wãt wãt yah fxi'zena](Convivencia_Armonica) [nxafxteyu' nwe'sx yuwe](Defensa_Familia) txajuk ya piyasa ewkweçxa fxiczeya
     - [nxafxteyu' nwe'sx yuwe](Defensa_Familia) pêykaya vxite nwêsehya 
   
-- intent: frase_7_10
-  examples: |
-    - agregar
+# - intent: frase_7_10
+#   examples: |
+#     - agregar
 
-- intent : frase_8_12
-  examples: |
-    - agregar
+# - intent : frase_8_12
+#   examples: |
+#     - agregar

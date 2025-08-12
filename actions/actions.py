@@ -15,7 +15,7 @@ TRADUCCIONES_NASA_1_2 = {
 TRADUCCIONES_NASA_2 = {
     "eka nasawe'sxa": "Estados",
     "nasa we'sx": "Participación Comunitaria",
-    "thêsa kiwe yuwe puiinxitxis eskhe vxitna yuhta": "derechos territoriales tradicionales"
+    "thêsa kiwe yuwe puiinxitxis": "derechos territoriales tradicionales"
 }
 
 TRADUCCIONES_NASA_3 = {
